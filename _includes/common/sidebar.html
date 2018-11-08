@@ -1,0 +1,30 @@
+<div>
+  <ul>
+    
+      <h2>{{ site.title }}</h2>
+      <div class="column-icons">
+        {% for social_icon in site.social_icons %}
+          <a href="{{ social_icon.link_url }}" target="_blank">
+            <img src="{{ social_icon.image_url }}"/></a>
+        {% endfor %}
+      </div>
+    
+    {% for static_file in site.static_files %}
+      {% if static_file.path == '/CHANGELOG.md' %}
+        <li>
+          <a href="/CHANGELOG.html" target="{{ link.target }}">
+            What's new in {{ site.version }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+    {% for link in site.links %}
+      <li>
+        <a href="{{ link.url }}" target="{{ link.target }}">
+          {{ link.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
