@@ -3,3 +3,6 @@ title: FDC3
 description: The documentation website for FINOS FDC3
 
 google_analytics: UU-123456
+
+plugins:
+  - jekyll-octicons
