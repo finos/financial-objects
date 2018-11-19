@@ -17,6 +17,10 @@ html, body {
 #left-sidebar.col-lg-3 {
 	margin-top: 10px;
 }
+#homepage-intro a {
+	color: #ffffff;
+	text-decoration: underline;
+} 
 #left-sidebar li {
 	margin-left: 20px;
 }
@@ -25,6 +29,49 @@ html, body {
 	margin-top: 20px;
 	margin-bottom: 0rem;
 }
+.bg-grey {
+	background-color: #f8f8f8;
+	max-width: 100%;
+	padding: 20px;
+}
+#member.container {
+	padding: 20px;
+}
+#our-github h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+#our-github .btn-position {
+	text-align: center;
+}
+.btn-github {
+	padding: 25px 50px 23px;
+	font-size: 15px;
+	min-width: 200px;
+	background-color: #101010;
+	border-color: #2c2c2c;
+	color: #fff;
+}
+.btn-github:hover {
+	padding: 25px 50px 23px;
+	font-size: 15px;
+	min-width: 200px;
+	background-color: #2c2c2c;
+	border-color: #2c2c2c;
+	color: #fff;
+	cursor: pointer;
+}
+#member,#footer,#get-in-touch.container {
+	max-width: 100%;
+}
+#member,#get-in-touch h2 {
+	text-align: center;
+}
+.bg-dark-grey {
+	background-color: #b7b7b7;
+	padding: 20px;
+}
+
 .iconbox {
 	padding: 10px 20px;
     border-radius: 3px;
@@ -34,6 +81,7 @@ html, body {
     height: 250px;
     margin-left: 5%;
     text-align: center;
+    margin-bottom: 50px;
 }
 .logo-spacing {
 	max-height: 85px;
@@ -72,11 +120,18 @@ html, body {
 }
 
 .inner {
-	margin: 30px;
+	
 }
-
+.sticky-top{
+	position: fixed;
+	right: 0px;
+}
 .nav {
     background-color: #000000;
+    position: fixed;
+    width: 74%;
+    
+    z-index: 1;
 }
 
 .nav a {
@@ -172,4 +227,16 @@ ul.column-menu li {
 	height: 100px;
 	margin: 10px;
 	box-shadow: none !important;
+}
+@media only screen and (max-width: 600px) {
+	.sticky-top {
+	    position: fixed;
+	    right: 0px;
+	    }
+}
+@media only screen and (min-width: 600px) {
+	.sticky-top {
+	    position: fixed;
+	    right: 20%;
+	    }
 }
