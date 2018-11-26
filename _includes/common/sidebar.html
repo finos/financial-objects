@@ -1,18 +1,17 @@
 <div>
   <ul>
-    
-      <h2>{{ site.title }}</h2>
-      <div class="column-icons">
-        {% for social_icon in site.social_icons %}
-          <a href="{{ social_icon.link_url }}" target="_blank">
-            <img src="{{ social_icon.image_url }}"/></a>
-        {% endfor %}
-      </div>
-    
+    <h2>{{ site.title }}</h2>
+    <div class="column-icons">
+      {% for social_icon in site.social_icons %}
+        <a href="{{ social_icon.link_url }}" target="_blank">
+          <img src="{{ social_icon.image_url }}"/></a>
+      {% endfor %}
+    </div>
+
     {% for static_file in site.static_files %}
       {% if static_file.path == '/CHANGELOG.md' %}
         <li>
-          <a href="/CHANGELOG.html" target="{{ link.target }}">
+          <a href="/CHANGELOG.html">
             What's new in {{ site.version }}
           </a>
         </li>
@@ -21,10 +20,18 @@
 
     {% for link in site.links %}
       <li>
-        <a href="{{ link.url }}" target="{{ link.target }}">
+        <a href="{{ link.url }}">
           {{ link.name }}
         </a>
       </li>
     {% endfor %}
+
+    {% if site.menu_collection.size %}
+      {% for post in site.[site.menu_collection] %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    {% endif %}
   </ul>
 </div>
