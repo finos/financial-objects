@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include common/head.html %}
+  <body>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap container" class="outer">
+      {% include common/header.html %}
+      <div class="main_content">
+        <div class="row">
+          <div id="left-sidebar" class="col-lg-3">
+            {% include common/sidebar.html %}
+          </div>
+          <div class="col">
+            <section id="main_content" class="inner">
+              {% assign badge_color = '' %}
+              {% if page.status == "ACCEPTED" %}
+                {% assign badge_color = 'green' %}
+              {% elsif page.status == "REJECTED" %}
+                {% assign badge_color = 'red' %}
+              {% elsif page.status == "IN REVIEW" %}
+                {% assign badge_color = 'yellow' %}
+              {% elsif page.status == "DELETED" %}
+                {% assign badge_color = 'grey' %}
+              {% elsif page.status == "BACKLOG" %}
+                {% assign badge_color = 'teal' %}
+              {% endif %}
+              <b style="background-color: {{ badge_color }}">STATUS: {{page.status}}</b>
+              <h2>{{page.title}}</h2>
+              {{ content }}
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include common/footer.html %}
+    {% include common/ga.html %}
+  </body>
+</html>
