@@ -26,12 +26,10 @@
       </li>
     {% endfor %}
 
-    {% if site.menu_collection.size %}
-      {% for post in site.[site.menu_collection] %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    {% endif %}
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
   </ul>
 </div>
