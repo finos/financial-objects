@@ -13,3 +13,10 @@ google_analytics: UU-123456
 
 plugins:
   - jekyll-octicons
+
+# Enable this for sidbar menu
+# links:
+#   - name: Getting Started
+#     url: /
+#   - name: API specs
+#     url: /specs

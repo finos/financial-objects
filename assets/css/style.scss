@@ -1,57 +1,471 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,800');
-@font-face {
-    font-family: "Montserrat Light";
-    font-style: normal;
-    font-weight: 300;
-    src: url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat-Light.eot") format("embedded-opentype"),
-    url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat-Light.woff") format("woff"),
-    url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat-Light.ttf") format("truetype");
-}
+/*******************************/
+/***** UPDATE 1/4/2010 4PM *****/
+/*******************************/
 
-@font-face {
-    font-family: "Montserrat Bold";
-    font-style: normal;
-    font-weight: 800;
-    src: url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat%20Bold/Montserrat-Bold.eot") format("embedded-opentype"),
-    url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat%20Bold/Montserrat-Bold.woff") format("woff"),
-    url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat%20Bold/Montserrat-Bold.ttf") format("truetype");
-}
+/*******************************/
+/***** COLORS - USED AS A REFERENCE *****/
+/*******************************/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,800");
+.hs-form-required {
+  display: none; }
 
-@font-face {
-    font-family: "Montserrat Regular";
-    font-style: normal;
-    font-weight: 400;
-    src: url("//cdn2.hubspot.net/hubfs/2419532/FINOS/fonts/Montserrat%20Regular/Montserrat-Regular.eot") format("embedded-opentype"),
-    url("//cdn2.hubspot.net/hubfs/2419532/FINOS/fonts/Montserrat%20Regular/Montserrat-Regular.woff") format("woff"),
-    url("//cdn2.hubspot.net/hubfs/2419532/FINOS/fonts/Montserrat%20Regular/Montserrat-Regular.ttf") format("truetype");
-}
+.finos.light.blue {
+  background-color: #00b5e2; }
 
-@font-face {
-    font-family: "Montserrat Italic";
-    font-style: normal;
-    font-weight: 400;
-    src: url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat%20Italic/Montserrat-Italic.eot") format("embedded-opentype"),
-    url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat%20Italic/Montserrat-Italic.woff") format("woff"),
-    url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat%20Italic/Montserrat-Italic.ttf") format("truetype");
-}
+.finos.dark.blue {
+  background-color: #0086bf; }
 
+.finos.teal {
+  background-color: #6bcaba; }
+
+.finos.green {
+  background-color: #43b02a; }
+
+.finos.gold {
+  background-color: #d7c826; }
+
+.finos.dark.grey {
+  background-color: #487a7b; }
+
+.finos.grey {
+  background-color: #a2acab; }
+
+/*******************************/
+/***** END COLORS *****/
+/*******************************/
+/*******************************/
+/***** FONTS *****/
+/*******************************/
+@font-face {
+  font-family: "Montserrat Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat-Light.eot") format("embedded-opentype"), url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat-Light.woff") format("woff"), url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "Montserrat Bold";
+  font-style: normal;
+  font-weight: 800;
+  src: url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat%20Bold/Montserrat-Bold.eot") format("embedded-opentype"), url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat%20Bold/Montserrat-Bold.woff") format("woff"), url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat%20Bold/Montserrat-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("//cdn2.hubspot.net/hubfs/2419532/FINOS/fonts/Montserrat%20Regular/Montserrat-Regular.eot") format("embedded-opentype"), url("//cdn2.hubspot.net/hubfs/2419532/FINOS/fonts/Montserrat%20Regular/Montserrat-Regular.woff") format("woff"), url("//cdn2.hubspot.net/hubfs/2419532/FINOS/fonts/Montserrat%20Regular/Montserrat-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Montserrat Italic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat%20Italic/Montserrat-Italic.eot") format("embedded-opentype"), url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat%20Italic/Montserrat-Italic.woff") format("woff"), url("//cdn2.hubspot.net/hubfs/2419532/sofin%20assets/Montserrat%20Italic/Montserrat-Italic.ttf") format("truetype"); }
+html {
+  font-family: "Montserrat Light"; }
+
+/*******************************/
+/***** END FONTS *****/
+/*******************************/
+/*******************************/
+/***** GENERIC *****/
+/*******************************/
 html, body {
-    width:100%;
-    height:100%;
-    margin:0;
-    font-family: "Montserrat Light" !important;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  color: #487a7b;
+  font-family: 'Montserrat Light', sans-serif; }
+
+a {
+  font-family: "Montserrat Light", sans-serif;
+  text-decoration: none;
+  color: #00b5e2; }
+
+a:hover {
+  text-decoration: none;
+  color: #00b5e2; }
+
+/*******************************/
+/***** END GENERIC *****/
+/*******************************/
+/*******************************/
+/***** NAVIGATION *****/
+/*******************************/
+.nav {
+  background-color: #ffffff;
+  position: fixed;
+  width: 74%;
+  margin: 0 auto;
+  padding: 10px;
+  z-index: 1; }
+
+.nav a {
+  color: white !important;
+  text-transform: uppercase !important;
+  text-decoration: none; }
+
+.nav-link {
+  padding: .5rem 1rem; }
+
+.nav-item {
+  padding: 0rem 1.5rem; }
+
+.nav-block {
+  font-size: 18px;
+  color: #ffffff;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  float: none; }
+  @media only screen and (min-width: 768px) {
+    .nav-block {
+      width: 55%; } }
+
+#nav-intro {
+  background-color: #ffffff;
+  
+  padding-bottom: 50px; }
+
+#nav-intro a {
+  color: #487a7b;
+  text-transform: uppercase;
+  font-weight: 900; }
+
+.navbar-brand {
+  padding-left: 7%;
 }
 
-img.hs-image-widget  {
-    padding-top: 70px;
-    padding-bottom: 60px;
-    height: 100% !important;
-    width: 100% !important;
+.navbar-nav {
+  padding-right: 5%;
 }
+
+.dropdown-menu {
+  border: 0px;
+  padding: .5rem 1rem;
+}
+
+.dropdown-divider {
+
+  border-top: 0px;
+  padding-left: 50px;
+}
+
+
+/*******************************/
+/***** END NAVIGATION *****/
+/*******************************/
+/*******************************/
+/***** HOME PAGE SPECIFIC *****/
+/*******************************/
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main_content {
+  width: 100%;
+  margin: 0 auto;
+
+  background-color: white; }
+
+/*******************************/
+/***** INTRO *****/
+/*******************************/
+.intro-block {
+  font-size: 18px;
+  color: #ffffff;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  float: none; }
+  @media only screen and (min-width: 768px) {
+    .intro-block {
+      width: 55%; } }
 
 #homepage-intro {
-	height: 50px
+  background-color: #1eb5e0;
+  background-repeat: no-repeat;
+  background-image: url(/assets/img/icon_bg_trans_wave.png);
+  background-attachment: scroll;
+  background-position: bottom right;
+  padding-bottom: 50px; }
+
+#homepage-intro a {
+  color: #d7c826;
+  font-weight: 900; }
+
+.logo-spacing {
+  max-height: 85px;
+  margin: 0 autol;
+  margin-bottom: 5%;
+  margin-top: 5%; }
+
+.btn-primary {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #3a7387;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 900;
+  font-style: italic; }
+
+.btn-primary:hover {
+  background-color: #d7c826;
+  border-color: #d7c826;
+  color: white; }
+
+/*******************************/
+/***** INTRO *****/
+/*******************************/
+.intro-block {
+  font-size: 18px;
+  color: #ffffff;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  float: none; }
+  @media only screen and (min-width: 768px) {
+    .intro-block {
+      width: 55%; } }
+
+#interior-intro {
+  background-color: #1eb5e0;
+  background-repeat: no-repeat;
+  background-image: url(/assets/img/icon_bg_trans_wave.png);
+  background-attachment: scroll;
+  background-position: bottom right;
+  padding-bottom: 50px; }
+
+#interior-intro a {
+  color: #d7c826;
+  font-weight: 900; }
+
+.logo-spacing {
+  max-height: 85px;
+  margin: 0 autol;
+  margin-bottom: 5%;
+  margin-top: 5%; }
+
+.btn-primary {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #3a7387;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 900;
+  font-style: italic; }
+
+.btn-primary:hover {
+  background-color: #d7c826;
+  border-color: #d7c826;
+  color: white; }
+
+/*******************************/
+/***** HOME MAIN *****/
+/*******************************/
+.iconbox {
+  padding: 10px 20px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+  background: #f6f6f8;
+  max-width: 90%;
+  height: 250px;
+  margin-left: 5%;
+  text-align: center;
+  margin-bottom: 50px; }
+  @media only screen and (min-width: 768px) {
+    .iconbox {
+      width: 45%; } }
+
+.outer, .row {
+  height: 100%; 
+  margin: 0 auto;
+}
+
+.bg-grey {
+  background-color: #f8f8f8;
+  max-width: 100%;
+  padding: 20px; }
+
+/*******************************/
+/***** HOME GITHUB SECTION *****/
+/*******************************/
+#our-github h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem; }
+
+#our-github .btn-position {
+  text-align: center; }
+
+.btn-github {
+  padding: 25px 50px 23px;
+  border-radius: 3px;
+  font-size: 15px;
+  min-width: 200px;
+  background-color: #3a7387;
+  border-color: #3a7387;
+  color: #ffffff;
+  font-weight: 900; }
+
+.btn-github:hover {
+  padding: 25px 50px 23px;
+  border-radius: 3px;
+  font-size: 15px;
+  min-width: 200px;
+  background-color: #3a7387;
+  border-color: #3a7387;
+  color: #ffffff;
+  font-weight: 900;
+  cursor: pointer; }
+
+/*******************************/
+/***** HOME MEMBER SECTION *****/
+/*******************************/
+#member.container {
+  padding: 50px; }
+
+#member {
+  max-width: 100%; }
+
+#member h2 {
+  text-align: center;
+  color: #3a7387;
+  font-size: 1.5rem !important; }
+
+/*******************************/
+/***** HOME FOOTER SECTION *****/
+/*******************************/
+.bg-dark-grey {
+  background-color: #a2acab;
+  max-width: 100%;
+  padding: 20px; }
+
+.bg-dark-grey p {
+  color: #ffffff !important; }
+
+.bg-dark-grey a {
+  color: #d7c826;
+  font-weight: 900 !important; }
+
+.bg-dark-grey h2 {
+  text-align: center;
+  color: white !important;
+  font-size: 1.5rem; }
+
+#left-sidebar {
+  background-color: #E9ECEF;  
+  padding-top: 10px; 
+}
+
+#left-sidebar.col-lg-3 li {
+  list-style-type: none; 
+
+}
+
+#left-sidebar a {
+  color: #487a7b; }
+
+#left-sidebar.col-lg-3 {
+  }
+
+#left-sidebar li {
+  margin-left: 20px; }
+
+#left-sidebar h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0rem; }
+
+.sticky-top {
+  position: fixed;
+  right: 0px; }
+
+.left-column {
+  padding-right: 0px !important;
+  background-color: #322A38 !important; }
+
+.column-menu {
+  color: grey;
+  text-decoration: none; }
+
+.column-menu a {
+  color: grey;
+  text-decoration: none; }
+
+.column-menu a:visited {
+  color: grey;
+  text-decoration: none; }
+
+.column-menu a:hover {
+  text-decoration: none;
+  color: ligh-grey; }
+
+.column-menu img {
+  height: 100px;
+  margin: 0 20px 0 20px;
+  box-shadow: none !important; }
+
+.column-title {
+  margin-top: 20px;
+  text-align: center; }
+
+.column-icons img {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: white; }
+
+.column-icons {
+  text-align: center; }
+
+ul.column-menu {
+  padding-left: 0px !important;
+  padding-top: 20px !important;
+  margin-left: 40px;
+  font-size: 18px; }
+
+ul.old-releases {
+  list-style: none !important; }
+
+ul.column-menu li {
+  margin-bottom: 5px;
+  list-style: none !important; }
+
+.column-footer {
+  background-color: #a2acab;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0; }
+
+.column-footer h2 {
+  color: #ffffff !important; }
+
+.column-footer h3 {
+  background: none !important; }
+
+.column-footer img {
+  height: 100px;
+  margin: 10px;
+  box-shadow: none !important; }
+
+@media only screen and (max-width: 600px) {
+  .sticky-top {
+    position: fixed;
+    right: 0px; } }
+@media only screen and (min-width: 600px) {
+  .sticky-top {
+    position: fixed;
+    right: 20%; } }
+
+.inner {
+  padding-top: 20px;
 }
