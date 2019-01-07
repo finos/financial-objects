@@ -1,12 +1,70 @@
 <head>
-	<meta charset='utf-8'>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width,maximum-scale=2">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Static meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+	<meta http-equiv="content-language" content="en-us">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!-- Styling and JS -->
+	<!-- <script src="https://code.jquery.com/jquery-1.7.1.min.js" integrity="sha256-iBcUE/x23aI6syuqF7EeT/+JFBxjPs5zeFJEXxumwb0=" crossorigin="anonymous"></script> -->
+	<!-- What is this needed for? -->
+	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic" media="all"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+	<!-- 	<link rel="stylesheet" href="https://www.finos.org/hs-fs/hub/2419532/hub_generated/template_assets/1542118738215/Custom/page/FINOS/finos.min.css">
+	 -->
+
+ 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,500,400" media="all">
+
+	<!-- Dynamic meta, from _config.yml -->
+    {% if site.author %}
+    	<meta name="author" content="{{ site.author }}">
+    {% endif %}
+
+	{% if site.long_title %}
+	    <title>{{ site.long_title }}</title>
+	    <meta property="og:title" content="{{ site.long_title }}">
+	    <meta property="st:title" content="{{ site.long_title }}">
+	{% endif %}
+
+
+	{% if site.description %}
+		<meta name="description" content="{{ site.description }}">
+	    <meta property="og:description" content="{{ site.description }}">
+	    <meta name="twitter:description" content="{{ site.description }}">
+	{% endif %}
+
+	{% if site.short_title %}
+	    <meta property="og:title" content="{{ site.short_title }}">
+	    <meta name="twitter:title" content="{{ site.short_title }}">
+	{% endif %}
+
+	{% if site.canonical_url %}
+	    <link rel="canonical" href="{{ site.canonical_url }}">
+		<meta property="og:url" content="{{ site.canonical_url }}">
+	{% endif %}
+
+	{% if site.keywords %}
+    	<meta name="keywords" content="{{ site.keywords }}"/>
+	{% endif %}
+
+	{% if site.program_video %}
+		<meta property="og:video" content="{{ site.program_video }}">
+	{% endif %}
+
+	{% if site.program_image %}
+		<meta property="og:image" content="{{ site.program_image }}">
+		<meta name="twitter:image" content="{{ site.program_image }}">
+	{% endif %}
+
+	{% if site.twitter_handle %}
+		<meta name="twitter:site" content="{{ site.twitter_handle }}">
+	{% endif %}
 </head>

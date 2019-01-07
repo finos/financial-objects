@@ -1,15 +1,15 @@
-title: FDC3
-
+canonical_url: https://fdc3.finos.org
+author: FINOS FDC3
+short_title: FINOS FDC3
+long_title: FINOS, Fintech Open Source Foundation
+program_image: https://www.finos.org/hubfs/FINOS/finos-logo/FINOS-linkedin-logo.png
+twitter_handle: "@FDC3_"
 description: The documentation website for FINOS FDC3
+
+# program_video:
+# keywords:
 
 google_analytics: UU-123456
 
 plugins:
   - jekyll-octicons
-
-# Enable this for sidbar menu
-# links:
-#   - name: Getting Started
-#     url: /
-#   - name: API specs
-#     url: /specs

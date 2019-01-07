@@ -1,69 +1,50 @@
-<div id="nav-intro">
-  <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img src="/assets/img/FINOS.svg" width="20" height="40" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-      <span class="navbar-toggler-icon"></span>
+<!-- <div id="sticky-menu" class="row-fluid">
+  <div class="span4 widget-span widget-type-logo" data-widget-type="logo" data-x="0" data-w="4">
 
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
+  </div>
+  <div class="span8 widget-span widget-type-menu navbar-bg hidden-phone custom-menu-primary js-enabled" style="text-align: center;" data-widget-type="menu" data-x="4" data-w="8">
+    <div class="cell-wrapper layout-widget-wrapper">
+      <ul>
+        <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="menu">
+          <a href="https://www.finos.org/programs" aria-haspopup="true" aria-expanded="false" role="menuitem">Programs</a>
+          <div class="child-trigger"><i></i></div>
+          <ul class="hs-menu-children-wrapper">
+            <li class="hs-menu-item hs-menu-depth-2"><a href="https://www.finos.org/dav" role="menuitem">Data Analytics Visualization</a></li>
+            <li class="hs-menu-item hs-menu-depth-2"><a href="https://www.finos.org/dt" role="menuitem">Data Technologies</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Use Cases</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >Standards</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown=item" href="#">API</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown=item" href="#">App Directory</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown=item" href="#">Context Data</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown=item" href="#">Intents</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >About</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown=item" href="#">People & Orgs</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown=item" href="#">More About FINOS</a>
-            <!--<div class="dropdown-divider"></div>
-            <a class="dropdown=item" href="#">?</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown=item" href="#">?</a>-->
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >Support / Help</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown=item" href="#">FDC3 Implementation Help</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown=item" href="#">How Do I Get Involved?</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown=item" href="#">Links</a>
-            <!--<div class="dropdown-divider"></div>
-            <a class="dropdown=item" href="#">?</a>-->
-          </div>
-        </li>
+        <li class="hs-menu-item hs-menu-depth-1" role="menu"><a href="https://www.finos.org/community" aria-haspopup="true" aria-expanded="false" role="menuitem">Community</a></li>
+        <li class="hs-menu-item hs-menu-depth-1"><a href="https://www.finos.org/sign-up" role="menuitem">Sign Up</a></li>
       </ul>
     </div>
-  </nav>
-</div>
-
-<div id="homepage-intro">
-  <div class="intro-block">
-    <span class="logo">
-      <img src="/assets/img/FDC3_logo-close-crop.png" class="alternate" alt="" title="" class="logo-spacing"/>
-    </span>
-    {% unless page.hidebanner %}
-      {% include banner.html %}
-    {% endunless %}
   </div>
 </div>
+<nav class="navbar navbar-dark bg-dark sticky-top">
+
+</nav> -->
+<div id="homepage-intro">
   
+    <a href="https://finos.org" id="hs-link-logo" style="border-width:0px;border:0px;">
+      <img src="https://www.finos.org/hs-fs/hubfs/sofin%20assets/SOFIN%20LOGOS/finos-logo.png?t=1543347800633" class="hs-image-widget" alt="FINOS" title="FINOS"/>
+    </a>
+  
+  <div class="span8">
+    <ul class="nav nav-fill">
+      <li class="nav-item"><a class="nav-link" href="https://fdc3.finos.org">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://fdc3.finos.org/#charter">FDC3 Charter</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://fdc3-api.finos.org">API</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://fdc3-app-directory.finos.org">App Directory</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://fdc3-context-data.finos.org">Context Data</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://fdc3-intents.finos.org">Intents</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://fdc3-use-cases.finos.org">Use Cases</a></li>
+    </ul>
+<!--     <div class="intro-block">
+      <span class="logo">
+        <img src="/assets/img/FDC3_logo.png" class="alternate" alt="" title="" class="logo-spacing"/>
+      </span>
+      {% unless page.hidebanner %}
+        {% include banner.html %}
+      {% endunless %}
+    </div> -->
+  </div>
+</div>
