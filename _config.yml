@@ -1,8 +1,8 @@
-title: FDC3
+title: FO
 
-description: The documentation website for FINOS FDC3
+description: The documentation website for FINOS FO
 
-google_analytics: UU-123456
+# google_analytics: UU-123456
 
 plugins:
   - jekyll-octicons
