@@ -13,29 +13,52 @@ TMP_FOLDER=../docs/objects
 
 # Remove old object interfaces
 rm -rf $DOCS_PATH/interfaces
-mkdir -p $DOCS_PATH/docs/interfaces
+mkdir -p $DOCS_PATH/interfaces
+
 # Create markdown files
 typedoc --module commonjs --theme markdown --readme none --out $TMP_FOLDER $TS_SOURCE
 
-# Extract object interfaces, remove the rest
-mv $TMP_FOLDER/interfaces $DOCS_PATH
-rm -rf $TMP_FOLDER
-
-# add Markdown headers for Docusaurus
-for filename in ../docs/interfaces/*.md; do
-    OBJECT_NAME=`cat $filename | grep "Interface:" | awk '{print $3}'`
-    TS_FILENAME=`echo $filename | cut -d_ -f2`.ts
-    TS_FILENAME="$(tr '[:lower:]' '[:upper:]' <<< ${TS_FILENAME:0:1})${TS_FILENAME:1}"
-    sed -i.bak '1d' $filename
-    echo "---" >> ${filename}.new
-    echo "id: $(basename "$filename" .md)" >> ${filename}.new
-    echo "title: $OBJECT_NAME object" >> ${filename}.new
-    echo "sidebar_label: $OBJECT_NAME" >> ${filename}.new
-    echo "---" >> ${filename}.new
-    echo "" >> ${filename}.new
-    echo "[Source code: ${TS_FILENAME}](${GITHUB_PREFIX}/${TS_FILENAME})" >> ${filename}.new
-    cat $filename >> ${filename}.new
-    sed -i.bak '/# Interface:/d' ${filename}.new
-    echo "Generated docs for '$OBJECT_NAME' object from file '$TS_FILENAME' to file '$filename'"
-    mv ${filename}.new ${filename}
+# fix links to this file across all the others
+for filepath in $TMP_FOLDER/interfaces/*.md; do
+    FILEPATH_NO_EXT=$(basename "$filepath" .md)
+    FILENAME_NO_EXT=`echo $filepath | cut -d_ -f2`
+    TS_FILENAME=${FILENAME_NO_EXT}.ts
+    for other_filepath in $TMP_FOLDER/interfaces/*.md; do
+        echo "Replacing '$FILEPATH_NO_EXT' with '$FILENAME_NO_EXT' on '$filepath'"
+        sed -i.bak "s/$FILEPATH_NO_EXT/$FILENAME_NO_EXT/g" $other_filepath
+    done
 done
+
+# add Markdown headers for Docusaurus and simplify name
+for filepath in $TMP_FOLDER/interfaces/*.md; do
+    FILEPATH_NO_EXT=$(basename "$filepath" .md)
+    FILENAME_NO_EXT=`echo $filepath | cut -d_ -f2`
+    OBJECT_NAME=`cat $filepath | grep "Interface:" | awk '{print $3}'`
+    TS_FILENAME=${FILENAME_NO_EXT}.ts
+    TS_FILENAME_UP="$(tr '[:lower:]' '[:upper:]' <<< ${TS_FILENAME:0:1})${TS_FILENAME:1}"
+
+    # Remove breadcrumb from TypeDoc markdown generation
+    sed -i.bak '1d' $filepath
+
+    # Add docusaurus info block
+    echo "---" >> ${filepath}.new
+    echo "id: $FILENAME_NO_EXT" >> ${filepath}.new
+    echo "title: $OBJECT_NAME object" >> ${filepath}.new
+    echo "sidebar_label: $OBJECT_NAME" >> ${filepath}.new
+    echo "---" >> ${filepath}.new
+
+    # Add link to TS source code
+    echo "" >> ${filepath}.new
+    echo "[Source code: ${TS_FILENAME}](${GITHUB_PREFIX}/${TS_FILENAME})" >> ${filepath}.new
+
+    # Remove 'Interface:' from Typedoc markdown generation
+    sed -i.bak '/# Interface:/d' ${filepath}
+
+    cat $filepath >> ${filenpath}.new
+    echo "Generated docs for '$OBJECT_NAME' object from file '$TS_FILENAME' to file '$filename'"
+    mv ${filename}.new $DOCS_PATH/interfaces/${FILENAME_NO_EXT}.md
+done
+
+# Cleanup
+rm -rf $TMP_FOLDER
+rm -rf $DOCS_PATH/interfaces/*.bak

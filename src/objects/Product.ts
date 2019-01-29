@@ -1,13 +1,10 @@
 import {Context} from './Context'
 
+export enum ProductType {
+    Irs,
+    Equity
+}
+
 export interface Product extends Context {
-	product: Irs | Equity
-}
-
-export interface Irs {
-	description: "Interest Rate Swap"
-}
-
-export interface Equity {
-	description: "Equity"
+	product: ProductType
 }

@@ -23,8 +23,6 @@
       "interfaces/_entity_.entity" ],
     "Utility Objects": [
       "interfaces/_country_.country",
-      "interfaces/_product_.equity",
-      "interfaces/_product_.irs",
       "interfaces/_context_.context" ]
   },
   "interfaces": {
@@ -51,8 +49,6 @@
       "interfaces/_entity_.entity" ],
     "Utility Objects": [
       "interfaces/_country_.country",
-      "interfaces/_product_.equity",
-      "interfaces/_product_.irs",
       "interfaces/_context_.context" ]
   }
 }
