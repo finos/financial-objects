@@ -1,0 +1,58 @@
+{
+  "docs": {
+    "Getting Started": [
+      "fo-intro",
+      "why-fo",
+      "fo-library"
+    ],
+    "Core Objects": [
+      "interfaces/_product_.product",
+      "interfaces/_trade_.trade",
+      "interfaces/_rfq_.rfq",
+      "interfaces/_rfq_.rfqresponse",
+      "interfaces/_order_.order",
+      "interfaces/_order_.orderresponse",
+      "interfaces/_instrument_.instrument",
+      "interfaces/_instrumentlist_.instrumentlist",
+      "interfaces/_portfolio_.portfolio",
+      "interfaces/_position_.position" ],
+    "Entity Objects": [
+      "interfaces/_contact_.contact",
+      "interfaces/_contactlist_.contactlist",
+      "interfaces/_organization_.organization",
+      "interfaces/_entity_.entity" ],
+    "Utility Objects": [
+      "interfaces/_country_.country",
+      "interfaces/_product_.equity",
+      "interfaces/_product_.irs",
+      "interfaces/_context_.context" ]
+  },
+  "interfaces": {
+    "Getting Started": [
+      "fo-intro",
+      "why-fo",
+      "fo-library"
+    ],
+    "Core Objects": [
+      "interfaces/_product_.product",
+      "interfaces/_trade_.trade",
+      "interfaces/_rfq_.rfq",
+      "interfaces/_rfq_.rfqresponse",
+      "interfaces/_order_.order",
+      "interfaces/_order_.orderresponse",
+      "interfaces/_instrument_.instrument",
+      "interfaces/_instrumentlist_.instrumentlist",
+      "interfaces/_portfolio_.portfolio",
+      "interfaces/_position_.position" ],
+    "Entity Objects": [
+      "interfaces/_contact_.contact",
+      "interfaces/_contactlist_.contactlist",
+      "interfaces/_organization_.organization",
+      "interfaces/_entity_.entity" ],
+    "Utility Objects": [
+      "interfaces/_country_.country",
+      "interfaces/_product_.equity",
+      "interfaces/_product_.irs",
+      "interfaces/_context_.context" ]
+  }
+}
