@@ -1,4 +1,4 @@
-import {Context} from './context'
+import {Context} from './Context'
 
 /**
  * A standardized format to transfer Positions and unique meta data for each portfolio, with possibility to extend what is included for each portfolio, including custom inhouse IDs if needed.
