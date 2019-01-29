@@ -25,7 +25,7 @@ rm -rf $TMP_FOLDER
 for filename in ../docs/interfaces/*.md; do
     OBJECT_NAME=`cat $filename | grep "Interface:" | awk '{print $3}'`
     TS_FILENAME=`echo $filename | cut -d_ -f2`
-    sed -i '' '1d' $filename
+    sed -i.bak '1d' $filename
     echo "---" >> ${filename}.new
     echo "id: $(basename "$filename" .md)" >> ${filename}.new
     echo "title: $OBJECT_NAME object" >> ${filename}.new
@@ -34,7 +34,7 @@ for filename in ../docs/interfaces/*.md; do
     echo "" >> ${filename}.new
     echo "[Source code: ${TS_FILENAME}](${GITHUB_PREFIX}/${TS_FILENAME})" >> ${filename}.new
     cat $filename >> ${filename}.new
-    sed -i '' '/# Interface:/d' ${filename}.new
+    sed -i.bak '/# Interface:/d' ${filename}.new
     echo "Generated docs for '$OBJECT_NAME' object from file '$TS_FILENAME' to file '$filename'"
     mv ${filename}.new ${filename}
 done
