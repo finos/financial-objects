@@ -1,4 +1,4 @@
-import { Context } from "./context";
+import { Context } from "./Context";
 
 /**
  * An Entity object is either a Contact or an Organization

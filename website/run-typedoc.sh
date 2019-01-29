@@ -24,6 +24,7 @@ rm -rf $TMP_FOLDER
 # add Markdown headers for Docusaurus
 for filename in ../docs/interfaces/*.md; do
     OBJECT_NAME=`cat $filename | grep "Interface:" | awk '{print $3}'`
+    TS_FILENAME=`echo $filename | cut -d_ -f`
     sed -i '' '1d' $filename
     echo "---" >> ${filename}.new
     echo "id: $(basename "$filename" .md)" >> ${filename}.new
@@ -31,9 +32,9 @@ for filename in ../docs/interfaces/*.md; do
     echo "sidebar_label: $OBJECT_NAME" >> ${filename}.new
     echo "---" >> ${filename}.new
     echo "" >> ${filename}.new
-    echo "[Source code: ${OBJECT_NAME}.ts](${GITHUB_PREFIX}/${OBJECT_NAME}.ts)" >> ${filename}.new
+    echo "[Source code: ${TS_FILENAME}](${GITHUB_PREFIX}/${TS_FILENAME})" >> ${filename}.new
     cat $filename >> ${filename}.new
     sed -i '' '/# Interface:/d' ${filename}.new
-    echo "Generated docs for '$OBJECT_NAME' object on file '$filename'"
+    echo "Generated docs for '$OBJECT_NAME' object from file '$TS_FILENAME' to file '$filename'"
     mv ${filename}.new ${filename}
 done

@@ -1,5 +1,5 @@
-import {Context} from './context'
-import {Instrument} from './instrument'
+import {Context} from './Context'
+import {Instrument} from './Instrument'
 
 /**
  * A standardized format for a lists of Instruments.

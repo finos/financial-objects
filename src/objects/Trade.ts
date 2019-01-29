@@ -1,6 +1,6 @@
-import {Context} from './context'
+import {Context} from './Context'
 import { Instrument } from './Instrument'
-import { Product } from './product';
+import { Product } from './Product';
 
 /**
  * Ability to define and pass through a structured object between buy-side, sell-side and financial eco-system partners.

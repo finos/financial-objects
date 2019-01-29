@@ -1,5 +1,5 @@
-import {Context} from './context'
-import {Contact} from './contact'
+import {Context} from './Context'
+import {Contact} from './Contact'
 
 /**
  * A standardized format for a lists of Contacts.

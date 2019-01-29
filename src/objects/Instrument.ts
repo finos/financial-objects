@@ -1,5 +1,5 @@
-import {Context} from './context'
-import { Product } from './product'
+import {Context} from './Context'
+import { Product } from './Product'
 
 /**
  * Several use cases and workflows rely on that all parties involved can understand what instrument is being referred to - be it a simple chat message "why is Apple up today?" where the receiver wants to look up details about the company mentioned or a complex financial object - involving several securities - that will be parsed by a system.
