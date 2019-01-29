@@ -24,7 +24,7 @@ rm -rf $TMP_FOLDER
 # add Markdown headers for Docusaurus
 for filename in ../docs/interfaces/*.md; do
     OBJECT_NAME=`cat $filename | grep "Interface:" | awk '{print $3}'`
-    TS_FILENAME=`echo $filename | cut -d_ -f`
+    TS_FILENAME=`echo $filename | cut -d_ -f2`
     sed -i '' '1d' $filename
     echo "---" >> ${filename}.new
     echo "id: $(basename "$filename" .md)" >> ${filename}.new
