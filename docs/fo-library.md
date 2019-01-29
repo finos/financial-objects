@@ -12,16 +12,16 @@ sidebar_label: Object Library
 * [Order](interfaces/order)
 * [Order Response](interfaces/orderresponse)
 * [Instrument](interfaces/instrument)
-* [InstrumentList](interfaces/instrumentlist)
 * [Portfolio](interfaces/portfolio)
 * [Position](interfaces/position)
 
 ## Entity Objects
 * [Contact](interfaces/contact)
-* [ContactList](interfaces/contactlist)
 * [Organization](interfaces/organization)
 * [Entity](interfaces/entity)
 
 ## Utility Objects
+* [Contact List](interfaces/contactlist)
+* [Instrument List](interfaces/instrumentlist)
 * [Country](interfaces/country)
 * [Context](interfaces/_context_.context)
