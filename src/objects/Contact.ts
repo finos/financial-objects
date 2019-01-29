@@ -5,9 +5,24 @@ import {Entity} from './Entity'
  */
 export interface Contact extends Entity {
     id: {
+        /**
+         * Contact email address - https://tools.ietf.org/html/rfc5322
+         */
         email: string
+
+        /**
+         * Twitter account name
+         */
         twitter?: string
+
+        /**
+         * Phone number - (+xx xxx xxx xxxx)
+         */
         phone?: string
+
+        /**
+         * Custom properties
+         */
         [x:string]: string
     }
 }

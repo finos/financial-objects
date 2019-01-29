@@ -13,7 +13,7 @@ TMP_FOLDER=../docs/objects
 
 # Remove old object interfaces
 rm -rf $DOCS_PATH/interfaces
-
+mkdir -p $DOCS_PATH/docs/interfaces
 # Create markdown files
 typedoc --module commonjs --theme markdown --readme none --out $TMP_FOLDER $TS_SOURCE
 
