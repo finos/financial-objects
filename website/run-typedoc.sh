@@ -24,7 +24,6 @@ for filepath in $TMP_FOLDER/interfaces/*.md; do
     FILENAME_NO_EXT=`echo $filepath | cut -d_ -f2`
     TS_FILENAME=${FILENAME_NO_EXT}.ts
     for other_filepath in $TMP_FOLDER/interfaces/*.md; do
-        echo "Replacing '$FILEPATH_NO_EXT' with '$FILENAME_NO_EXT' on '$filepath'"
         sed -i.bak "s/$FILEPATH_NO_EXT/$FILENAME_NO_EXT/g" $other_filepath
     done
 done
