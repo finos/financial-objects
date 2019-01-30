@@ -1,0 +1,21 @@
+{
+  "name": "finos-fo-website",
+  "repository": "https://github.com/finos-fo/finos-fo.github.io.git",
+  "license": "Apache-2.0",
+  "scripts": {
+    "examples": "docusaurus-examples",
+    "start": "docusaurus-start",
+    "build": "docusaurus-build",
+    "test": "node ../src/samples/printout.ts",
+    "publish-gh-pages": "docusaurus-publish",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version",
+    "typedoc": "./run-typedoc.sh"
+  },
+  "devDependencies": {
+    "docusaurus": "1.7.1",
+    "typedoc": "0.14.2",
+    "typedoc-plugin-markdown": "1.1.25"
+  }
+}
