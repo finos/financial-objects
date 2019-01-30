@@ -37,8 +37,9 @@ for filepath in $TMP_FOLDER/interfaces/*.md; do
     TS_FILENAME=${FILENAME_NO_EXT}.ts
     TS_FILENAME_UP="$(tr '[:lower:]' '[:upper:]' <<< ${TS_FILENAME:0:1})${TS_FILENAME:1}"
 
-    # Remove breadcrumb from TypeDoc markdown generation
+    # Remove breadcrumb and 'Interface:' title from TypeDoc markdown generation
     sed -i.bak '1d' $filepath
+    sed -i.bak '/# Interface:/d' ${filepath}
 
     # Add docusaurus info block
     echo "---" >> ${filepath}.new
@@ -51,12 +52,9 @@ for filepath in $TMP_FOLDER/interfaces/*.md; do
     echo "" >> ${filepath}.new
     echo "[Source code: ${TS_FILENAME}](${GITHUB_PREFIX}/${TS_FILENAME})" >> ${filepath}.new
 
-    # Remove 'Interface:' from Typedoc markdown generation
-    sed -i.bak '/# Interface:/d' ${filepath}
-
-    cat $filepath >> ${filenpath}.new
-    echo "Generated docs for '$OBJECT_NAME' object from file '$TS_FILENAME' to file '$filename'"
-    mv ${filename}.new $DOCS_PATH/interfaces/${FILENAME_NO_EXT}.md
+    cat $filepath >> ${filepath}.new
+    echo "Generated docs for '$OBJECT_NAME' object from file '$TS_FILENAME' to file '$filepath'"
+    mv ${filepath}.new $DOCS_PATH/interfaces/${FILENAME_NO_EXT}.md
 done
 
 # Cleanup
