@@ -144,30 +144,29 @@ class Index extends React.Component {
       <Block background="light" layout="fourColumn">
         {[
           {
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et faucibus justo.',
-            image: `${baseUrl}img/feature1.svg`,
+            content: 'Ability to define and pass through a structured object between buy-side, sell-side and financial eco-system partners. [Read More](docs/interfaces/trade)',
+            image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
-            title: 'Block 1',
+            title: 'Trade Object',
           },
           {
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et faucibus justo.',
-            image: `${baseUrl}img/feature2.svg`,
+            content: 'Enabled and triggered from a blotter or similar application to place an order. [Read More]docs/interfaces/order)',
+            image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
-            title: 'Block 2',
+            title: 'Order Object',
           },
           {
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et faucibus justo.',
-            image: `${baseUrl}img/feature3.svg`,
+            content: 'An extension of the trade object by identifying the additional attributes over and above the trade object. [Read More](docs/interfaces/rfq)',
+            image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
-            title: 'Block 3',
+            title: 'RFQ Object',
           },
           {
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et faucibus justo.',
-            image: `${baseUrl}img/feature4.svg`,
+            content: 'An object with standardized names would allow for the use of several IDs to define the instrument. [Read More](docs/interfaces/instrument)',
+            image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
-            title: 'Block 4'
+            title: 'Instrument Object'
           }
-          
         ]}
       </Block>
     );

@@ -10,6 +10,8 @@ This repository contains the object definitions and the logic to publish its doc
 
 If you want to build and contribute to this repository, checkout the [website README](website/README.md)
 
+If you want to check the objects source code, browse the [src/objects](src/objects) folder.
+
 ## License
 
 Copyright 2019 FINOS the Finteh Open Source Foundation
