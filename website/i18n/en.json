@@ -13,75 +13,67 @@
         "title": "Financial Objects Library",
         "sidebar_label": "Object Library"
       },
-      "interfaces/_contact_.contact": {
+      "interfaces/contact": {
         "title": "Contact object",
         "sidebar_label": "Contact"
       },
-      "interfaces/_contactlist_.contactlist": {
+      "interfaces/contactlist": {
         "title": "ContactList object",
         "sidebar_label": "ContactList"
       },
-      "interfaces/_context_.context": {
+      "interfaces/context": {
         "title": "Context object",
         "sidebar_label": "Context"
       },
-      "interfaces/_country_.country": {
+      "interfaces/country": {
         "title": "Country object",
         "sidebar_label": "Country"
       },
-      "interfaces/_entity_.entity": {
+      "interfaces/entity": {
         "title": "Entity object",
         "sidebar_label": "Entity"
       },
-      "interfaces/_instrument_.instrument": {
+      "interfaces/instrument": {
         "title": "Instrument object",
         "sidebar_label": "Instrument"
       },
-      "interfaces/_instrumentlist_.instrumentlist": {
+      "interfaces/instrumentlist": {
         "title": "InstrumentList object",
         "sidebar_label": "InstrumentList"
       },
-      "interfaces/_order_.order": {
+      "interfaces/order": {
         "title": "Order object",
         "sidebar_label": "Order"
       },
-      "interfaces/_order_.orderresponse": {
+      "interfaces/orderresponse": {
         "title": "OrderResponse object",
         "sidebar_label": "OrderResponse"
       },
-      "interfaces/_organization_.organization": {
+      "interfaces/organization": {
         "title": "Organization object",
         "sidebar_label": "Organization"
       },
-      "interfaces/_portfolio_.portfolio": {
+      "interfaces/portfolio": {
         "title": "Portfolio object",
         "sidebar_label": "Portfolio"
       },
-      "interfaces/_position_.position": {
+      "interfaces/position": {
         "title": "Position object",
         "sidebar_label": "Position"
       },
-      "interfaces/_product_.equity": {
-        "title": "Equity object",
-        "sidebar_label": "Equity"
-      },
-      "interfaces/_product_.irs": {
-        "title": "Irs object",
-        "sidebar_label": "Irs"
-      },
-      "interfaces/_product_.product": {
+      "interfaces/product": {
         "title": "Product object",
         "sidebar_label": "Product"
       },
-      "interfaces/_rfq_.rfq": {
+      "interfaces/rfq": {
         "title": "RFQ object",
         "sidebar_label": "RFQ"
       },
-      "interfaces/_rfq_.rfqresponse": {
+      "interfaces/rfqresponse": {
         "title": "RFQResponse object",
         "sidebar_label": "RFQResponse"
       },
-      "interfaces/_trade_.trade": {
+      "interfaces/trade": {
         "title": "Trade object",
         "sidebar_label": "Trade"
       },
