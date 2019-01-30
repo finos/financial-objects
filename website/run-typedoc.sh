@@ -2,7 +2,7 @@
 
 # GitHub repo coordinates
 GH_ORG="finos-fo"
-GH_REPO="finos-fo.github.io"
+GH_REPO="finos-fo"
 GH_BRANCH="docusaurus"
 GITHUB_PREFIX="https://github.com/$GH_ORG/$GH_REPO/tree/$GH_BRANCH/src/objects"
 
