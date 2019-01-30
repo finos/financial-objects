@@ -7,9 +7,9 @@ sidebar_label: Object Library
 ## Core Objects
 * [Trade](interfaces/trade)
 * [RFQ](interfaces/rfq)
-* [RFQ Response](interfaces/rfqresponse)
+* [RFQResponse](interfaces/rfqresponse)
 * [Order](interfaces/order)
-* [Order Response](interfaces/orderresponse)
+* [OrderResponse](interfaces/orderresponse)
 * [Instrument](interfaces/instrument)
 * [Portfolio](interfaces/portfolio)
 * [Position](interfaces/position)
@@ -20,9 +20,9 @@ sidebar_label: Object Library
 * [Entity](interfaces/entity)
 
 ## Utility Objects
-* [Contact List](interfaces/contactlist)
-* [Instrument List](interfaces/instrumentlist)
+* [ContactList](interfaces/contactlist)
+* [InstrumentList](interfaces/instrumentlist)
 * [Product](interfaces/product)
-* [Product Type](interfaces/producttype)
+* [ProductType](interfaces/producttype)
 * [Country](interfaces/country)
 * [Context](interfaces/_context_.context)
