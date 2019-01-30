@@ -7,7 +7,6 @@
     "start": "docusaurus-start",
     "build": "docusaurus-build",
     "test": "node ../src/samples/printout.ts",
-    "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",

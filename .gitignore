@@ -1,5 +1,7 @@
 # NPM build
 website/node_modules/
+website/build/
+website/i18n/
 website/package-lock.json
 
 # Typedoc generated .md files
