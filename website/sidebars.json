@@ -6,7 +6,6 @@
       "fo-library"
     ],
     "Core Objects": [
-      "interfaces/product",
       "interfaces/trade",
       "interfaces/rfq",
       "interfaces/rfqresponse",
@@ -22,6 +21,8 @@
     "Utility Objects": [
       "interfaces/contactlist",
       "interfaces/instrumentlist",
+      "interfaces/product",
+      "interfaces/producttype",
       "interfaces/country",
       "interfaces/context" ]
   },
@@ -32,7 +33,6 @@
       "fo-library"
     ],
     "Core Objects": [
-      "interfaces/product",
       "interfaces/trade",
       "interfaces/rfq",
       "interfaces/rfqresponse",
@@ -48,6 +48,8 @@
     "Utility Objects": [
       "interfaces/contactlist",
       "interfaces/instrumentlist",
+      "interfaces/product",
+      "interfaces/producttype",
       "interfaces/country",
       "interfaces/context" ]
   }

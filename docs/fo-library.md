@@ -5,7 +5,6 @@ sidebar_label: Object Library
 ---
 
 ## Core Objects
-* [Product](interfaces/product)
 * [Trade](interfaces/trade)
 * [RFQ](interfaces/rfq)
 * [RFQ Response](interfaces/rfqresponse)
@@ -23,5 +22,7 @@ sidebar_label: Object Library
 ## Utility Objects
 * [Contact List](interfaces/contactlist)
 * [Instrument List](interfaces/instrumentlist)
+* [Product](interfaces/product)
+* [Product Type](interfaces/producttype)
 * [Country](interfaces/country)
 * [Context](interfaces/_context_.context)
