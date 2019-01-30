@@ -4,7 +4,7 @@ node_js:
 
 branches:
   only:
-    - docusaurus
+    - master
 
 cache:
   yarn: true
@@ -24,4 +24,4 @@ deploy:
     skip_cleanup: true
     script: GIT_USER="${GH_NAME}" yarn run publish-gh-pages
     on:
-      branch: docusaurus
+      branch: master
