@@ -27,7 +27,7 @@ deploy:
     name: $GH_NAME
     verbose: true
     keep-history: true
-    local-dir: website/build
+    local-dir: website/build/finos-fo.github.io
     target_branch: gh-pages
     on:
       branch: master
