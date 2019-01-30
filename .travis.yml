@@ -17,11 +17,4 @@ before_install:
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
 
 script:
-  - cd website && yarn install && yarn run typedoc
-
-deploy:
-  - provider: script
-    skip_cleanup: true
-    script: GIT_USER="${GH_NAME}" yarn run publish-gh-pages
-    on:
-      branch: master
+  - cd website && yarn install && yarn run typedoc && GIT_USER="${GH_NAME}" yarn run publish-gh-pages

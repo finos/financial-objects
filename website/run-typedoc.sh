@@ -50,7 +50,7 @@ for filepath in $TMP_FOLDER/interfaces/*.md; do
 
     # Add link to TS source code
     echo "" >> ${filepath}.new
-    echo "[Source code: ${TS_FILENAME}](${GITHUB_PREFIX}/${TS_FILENAME})" >> ${filepath}.new
+    echo "[Source code: ${TS_FILENAME}](${GITHUB_PREFIX}/)" >> ${filepath}.new
 
     cat $filepath >> ${filepath}.new
     echo "Generated docs for '$OBJECT_NAME' object from file '$TS_FILENAME' to file '$filepath'"
