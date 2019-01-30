@@ -1,6 +1,0 @@
-# NPM build
-website/node_modules/
-website/package-lock.json
-
-# Typedoc generated .md files
-docs/interfaces/
