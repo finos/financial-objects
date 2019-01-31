@@ -13,12 +13,12 @@ export interface Contact extends Entity {
         /**
          * Twitter account name
          */
-        twitter?: string
+        twitter: string
 
         /**
          * Phone number - (+xx xxx xxx xxxx)
          */
-        phone?: string
+        phone: string
 
         /**
          * Custom properties
