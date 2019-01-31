@@ -1,8 +1,13 @@
-# NPM build
-website/node_modules/
+# Website NPM build
 website/build/
 website/i18n/
+website/node_modules/
 website/package-lock.json
+
+# Codegen builds
+codegen/target/
+codegen/node_modules/
+codegen/package-lock.json
 
 # Typedoc generated .md files
 docs/interfaces/

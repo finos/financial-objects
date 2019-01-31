@@ -1,6 +1,6 @@
-import {Context} from './Context'
-import { ProductType } from './ProductType';
+import { Context } from "./Context";
+import { ProductType } from "./ProductType";
 
 export interface Product extends Context {
-	product: ProductType
+  product: ProductType;
 }

@@ -1,4 +1,4 @@
-import { Order } from './Order';
+import { Order } from "./Order";
 
 /**
  * The RFQ object will be an extension of the trade object by identifying the additional attributes over and above the trade object to determine the status of RFQ - inquiry, response, state change data fields.

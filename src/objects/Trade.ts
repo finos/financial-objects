@@ -1,6 +1,6 @@
-import {Context} from './Context'
-import { Instrument } from './Instrument'
-import { Product } from './Product';
+import { Context } from "./Context";
+import { Instrument } from "./Instrument";
+import { Product } from "./Product";
 
 /**
  * Ability to define and pass through a structured object between buy-side, sell-side and financial eco-system partners.
@@ -10,10 +10,10 @@ import { Product } from './Product';
  * Example: IRS, USD, 10Y, LCH (Vanilla Swap), IRS, USD, 10y/5y, LCH (Vanilla Swap - 5y swap 10y fwd)
  */
 export interface Trade extends Context {
-    product: Product
-    CCY: string
-    maturity: number
-    clear: string
-    // TODO - is this needed?
-    instrument: Instrument
+  product: Product;
+  CCY: string;
+  maturity: number;
+  clear: string;
+  // TODO - is this needed?
+  instrument: Instrument;
 }

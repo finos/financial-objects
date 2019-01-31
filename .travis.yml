@@ -18,6 +18,8 @@ before_install:
 
 script:
   - cd website && yarn install && yarn run typedoc && yarn run build
+  - cd codegen && yarn install && yarn run quicktype-java && yarn run quicktype-python && yarn run quicktype-cs
+  - cd codegen && yarn run build-java && build-node
 
 deploy:
   - provider: pages

@@ -1,4 +1,4 @@
 export enum ProductType {
-    Irs,
-    Equity
+  Irs,
+  Equity
 }
