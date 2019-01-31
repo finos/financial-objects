@@ -1,6 +1,38 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
+const users = [
+  { caption: 'William Quan, Co-Chair (JPM)', pinned: true },
+  { caption: 'Hammad Akbar, Co-Chair (Citi)', pinned: true },
+  { caption: 'Ayaz Haji, Participant (GS)' },
+  { caption: 'Oli Bage, Participant (MS)' },
+  { caption: 'Nilesh Bhattad, Participant (JPM)' },
+  { caption: 'Peter Smulovic, Participant (MS)' },
+  { caption: 'Johan Sandersson, Participant (FactSet)' },
+  { caption: 'Hershal Shah, Participant (IHS Markit)' },
+  { caption: 'Frank Tarsillo, Participant (IHS Markit)' },
+  { caption: 'Bruce Skingle, Participant (Symphony)' },
+  { caption: 'Mario Orphanou, Participant (Symphony)' },
+  { caption: 'Lawrence Miller, Participant	(Symphony)' },
+  { caption: 'Mike Harmon, Participant (Symphony)' },
+  { caption: 'Aaron Williamson, Participant (FINOS)' },
+  { caption: 'Rob Underwood, Facilitator (FINOS)' },
+  { caption: 'Maurizio Pillitu, Facilitator (FINOS)' },
+  { caption: 'Gabriele Columbro,Facilitator (FINOS)' },
+  { caption: 'Nick Kolba, Participant (OpenFin)' },
+  { caption: 'Espen Overbye, Participant (OpenFin)' },
+  { caption: 'Jerry Savoretti, Participant	(Portware - FactSet)' },
+  { caption: 'David Landisman, Participant	(Portware - FactSet)' },
+  { caption: 'Justin Peterson, Participant	(TradeWeb)' },
+  { caption: 'Svyatoslav (Slava) Kryukov, Participant (DB)' },
+  { caption: 'Tim Kolecke, Participant	(Citadel)' },
+  { caption: 'Mirjana Pantic, Participant (UBS)' },
+  { caption: 'Aadi Thayyar, Participant (AllianceBernstein)' },
+  { caption: 'John Lin, Participant (AllianceBernstein)' },
+  { caption: 'Kiran Jawal, Participante (AllianceBernstein)' },
+  { caption: 'Katia Banina, Participant (Refinitiv)' }
+];
+
 const siteConfig = {
   title: 'FINOS Financial Objects', // Title for your website.
   tagline: 'Drive adoption of new and existing Financial Objects Standards that support common industry workflows and use cases',
@@ -22,6 +54,9 @@ const siteConfig = {
     secondaryColor: '#205C3B',
   },
 
+  // If you have users set above, you add it here:
+  users,
+
   copyright: `Copyright © ${new Date().getFullYear()} FINOS - The Fintech Opensource Foundation`,
 
   highlight: {
@@ -40,6 +75,7 @@ const siteConfig = {
   wrapPagesHTML: true,
   docsSideNavCollapsible: true,
 
+  twitterUsername: 'finos',
   // Open Graph and Twitter card images.
   ogImage: 'img/fo-logo-white.gif',
   twitterImage: 'img/fo-logo-white.gif',
