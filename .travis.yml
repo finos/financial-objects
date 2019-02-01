@@ -10,6 +10,7 @@ cache:
   yarn: true
   directories:
     - website/node_modules
+    - $HOME/.m2
 
 before_install:
   - git config --global user.name "${GH_NAME}"
@@ -19,7 +20,7 @@ before_install:
 script:
   - cd website && yarn install && yarn run typedoc && yarn run build && cd -
   - cd codegen && yarn install && yarn run quicktype-java && yarn run quicktype-python && yarn run quicktype-cs && cd -
-  - cd codegen && yarn run build-java && build-node && cd -
+  - cd codegen && yarn run build-java && yarn run build-node && cd -
 
 deploy:
   - provider: pages
