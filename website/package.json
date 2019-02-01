@@ -1,6 +1,5 @@
 {
-  "name": "finos-fo",
-  "repository": "https://github.com/finos-fo/finos-fo.github.io.git",
+  "name": "finos-fo-website",
   "license": "Apache-2.0",
   "scripts": {
     "examples": "docusaurus-examples",
