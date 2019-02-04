@@ -14,11 +14,11 @@
       "interfaces/instrument",
       "interfaces/portfolio",
       "interfaces/position" ],
-    "Entity Objects": [
+    "Contact Objects": [
       "interfaces/contact",
       "interfaces/organization",
       "interfaces/entity" ],
-    "Utility Objects": [
+    "Reference Objects": [
       "interfaces/contactlist",
       "interfaces/instrumentlist",
       "interfaces/product",
@@ -41,11 +41,11 @@
       "interfaces/instrument",
       "interfaces/portfolio",
       "interfaces/position" ],
-    "Entity Objects": [
+    "Contact Objects": [
       "interfaces/contact",
       "interfaces/organization",
       "interfaces/entity" ],
-    "Utility Objects": [
+    "Reference Objects": [
       "interfaces/contactlist",
       "interfaces/instrumentlist",
       "interfaces/product",

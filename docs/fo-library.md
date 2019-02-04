@@ -14,12 +14,12 @@ sidebar_label: Object Library
 * [Portfolio](interfaces/portfolio)
 * [Position](interfaces/position)
 
-## Entity Objects
+## Contact Objects
 * [Contact](interfaces/contact)
 * [Organization](interfaces/organization)
 * [Entity](interfaces/entity)
 
-## Utility Objects
+## Reference Objects
 * [ContactList](interfaces/contactlist)
 * [InstrumentList](interfaces/instrumentlist)
 * [Product](interfaces/product)
