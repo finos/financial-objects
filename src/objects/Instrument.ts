@@ -1,4 +1,3 @@
-import { Context } from "./Context";
 import { Product } from "./Product";
 
 /**
@@ -6,7 +5,7 @@ import { Product } from "./Product";
  * An object with standardized names would allow for the use of several IDs to define the instrument - including all well-known data-sets and open symbology reference data as well as custom inhouse IDs if needed.
  * The main idea is for each participant to send as many IDs as exist in the system and be able to receive/understand as many as possible.This will ensure compatibility with existing applications while at the same time allow for a potential "most-favored" ID to become a future standard.
  */
-export interface Instrument extends Context {
+export interface Instrument {
   product: Product;
   name: string;
   id: {

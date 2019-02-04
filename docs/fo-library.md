@@ -13,6 +13,8 @@ sidebar_label: Object Library
 * [Instrument](interfaces/instrument)
 * [Portfolio](interfaces/portfolio)
 * [Position](interfaces/position)
+* [IRS](interfaces/_irs_.irs)
+* [Equity](interfaces/_equity_.equity)
 
 ## Contact Objects
 * [Contact](interfaces/contact)
@@ -25,4 +27,3 @@ sidebar_label: Object Library
 * [Product](interfaces/product)
 * [ProductType](interfaces/producttype)
 * [Country](interfaces/country)
-* [Context](interfaces/_context_.context)
