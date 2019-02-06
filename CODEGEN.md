@@ -22,15 +22,20 @@ yarn test
 ### Publish to NPM
 Run these commands from the `npm-codegen` folder:
 ```
-npm login
-npm publish
+yarn login
+yarn publish
 ```
 
 ## Java code bundling
+Run these commands from the `mvn-codegen` folder:
 ```
 export CI_DEPLOY_USERNAME=<username on issues.sonatype.org>
 export CI_DEPLOY_PASSWORD=<password on issues.sonatype.org>
-
+yarn install
+yarn run generate
+yarn run bundle
+yarn test
+yarn publish
 ```
 
 ## C# code bundling
