@@ -18,9 +18,14 @@ before_install:
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
 
 script:
+  # Build the website
   - cd website && yarn install && yarn run typedoc && yarn run build && cd -
-  - cd codegen && yarn install && yarn run quicktype-java && yarn run quicktype-python && yarn run quicktype-cs && cd -
-  - cd codegen && yarn run build-java && yarn run build-node && cd -
+
+  # Generate and test NPM bundle
+  - cd npm-codegen && yarn install && yarn run node-bundle && cd local-sample && npm install && npm test && cd ../npm-sample && npm install && npm test && cd ../..
+  
+  # Generate and bundle code bindings: Java, Python and C#
+  # - cd mvn-codegen && yarn run quicktype-java && yarn run quicktype-python && yarn run quicktype-cs && yarn run java-bundle && cd -
 
 deploy:
   - provider: pages

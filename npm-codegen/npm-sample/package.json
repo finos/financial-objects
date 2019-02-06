@@ -1,0 +1,14 @@
+{
+  "name": "finos-fo-samples",
+  "repository": "https://github.com/finos-fo/finos-fo.github.io.git",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "ts-node printout.ts"
+  },
+  "dependencies": {
+    "fo-test": "0.0.2"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1"
+  }
+}
