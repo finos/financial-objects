@@ -1,4 +1,5 @@
 .vscode
+.project
 
 # Website NPM build
 website/build/
