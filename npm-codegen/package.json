@@ -7,8 +7,8 @@
   "jsnext:main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
-    "node-bundle": "rimraf ./dist ; tsc",
-    "publish_to_npm": "npm publish"
+    "bundle": "rimraf ./dist ; tsc",
+    "test": "cd local-sample && npm install && npm run test && cd ../npm-sample && npm install && npm run test"
   },
   "devDependencies": {
     "rimraf": "^2.5.4",

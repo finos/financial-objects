@@ -1,13 +1,18 @@
+.vscode
+
 # Website NPM build
 website/build/
 website/i18n/
 website/node_modules/
+website/package-lock.json
 
 # Codegen builds
 npm-codegen/node_modules/
+npm-codegen/package-lock.json
 npm-codegen/*/node_modules/
 npm-codegen/*/package-lock.json
 npm-codegen/dist/
+mvn-codegen/node_modules/
 
 # Typedoc generated .md files
 docs/interfaces/

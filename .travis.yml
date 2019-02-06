@@ -22,10 +22,21 @@ script:
   - cd website && yarn install && yarn run typedoc && yarn run build && cd -
 
   # Generate and test NPM bundle
-  - cd npm-codegen && yarn install && yarn run node-bundle && cd local-sample && npm install && npm test && cd ../npm-sample && npm install && npm test && cd ../..
+  # TODO - add semantic release, as soon as the team is ready to release
+  # See https://github.com/symphonyoss/hubot-symphony as example
+  - cd npm-codegen && yarn install && yarn run bundle && yarn run test && cd -
   
-  # Generate and bundle code bindings: Java, Python and C#
-  # - cd mvn-codegen && yarn run quicktype-java && yarn run quicktype-python && yarn run quicktype-cs && yarn run java-bundle && cd -
+  # Generate and test Java bundle
+  # TODO - add 'yarn run publish'
+  - cd mvn-codegen && yarn run generate && yarn run bundle && yarn run test && cd -
+
+  # Generate C#
+  # TODO - write/run test and generate bundles
+  - cd cs-codegen && yarn run quicktype-cs && cd -
+
+  # Generate Python
+  # TODO - write/run test and generate bundles
+  - cd pypi-codegen && yarn run quicktype-python && cd -
 
 deploy:
   - provider: pages
