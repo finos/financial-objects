@@ -9,5 +9,6 @@ Make sure you can execute `npm -v` from your terminal.
 ```
 git clone https://github.com/finos-fo/finos-fo.github.io.git
 cd finos-fo.github.io/website
+npm run typedoc
 npm start
 ```
