@@ -33,7 +33,7 @@ script:
 
   # Generate C#
   # TODO - write/run test and generate bundles
-  - cd cs-codegen && yarn install && yarn run generate && cd -
+  - cd nuget-codegen && yarn install && yarn run generate && cd -
 
   # Generate Python
   # TODO - write/run test and generate bundles
