@@ -29,15 +29,15 @@ script:
 
   # Generate and test Java bundle
   # TODO - add 'yarn run publish'
-  - cd mvn-codegen && yarn run generate && yarn run bundle && yarn run test && cd -
+  - cd mvn-codegen && yarn install && yarn run generate && yarn run bundle && yarn run test && cd -
 
   # Generate C#
   # TODO - write/run test and generate bundles
-  - cd cs-codegen && yarn run quicktype-cs && cd -
+  - cd cs-codegen && yarn install && yarn run generate && cd -
 
   # Generate Python
   # TODO - write/run test and generate bundles
-  - cd pypi-codegen && yarn run quicktype-python && cd -
+  - cd pypi-codegen && yarn install && yarn run generate && cd -
 
 deploy:
   - provider: pages

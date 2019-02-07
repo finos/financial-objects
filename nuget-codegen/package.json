@@ -3,7 +3,7 @@
   "repository": "https://github.com/finos-fo/finos-fo.git",
   "license": "Apache-2.0",
   "scripts": {
-    "quicktype-cs": "rm -rf target/cs ; export DIR=$PWD/.. ; mkdir -p target/cs ; quicktype $DIR/src/objects/* --lang cs --namespace Finos.FinancialObjects -o target/cs/FinancialObjects.cs"
+    "generate": "rm -rf target/cs ; export DIR=$PWD/.. ; mkdir -p target/cs ; quicktype $DIR/src/objects/* --lang cs --namespace Finos.FinancialObjects -o target/cs/FinancialObjects.cs"
   },
   "devDependencies": {
     "quicktype": "15.0.171"
