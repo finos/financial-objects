@@ -8,7 +8,7 @@
   "typings": "./dist/index.d.ts",
   "scripts": {
     "bundle": "rimraf ./dist ; tsc",
-    "test": "cd local-sample && npm install && npm run test && cd ../npm-sample && npm install && npm run test"
+    "test": "cd local-sample && yarn install && yarn run test && cd ../npm-sample && yarn install && yarn run test"
   },
   "devDependencies": {
     "rimraf": "^2.5.4",

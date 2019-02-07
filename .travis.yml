@@ -13,6 +13,7 @@ cache:
     - $HOME/.m2
 
 before_install:
+  - npm install -g ts-node
   - git config --global user.name "${GH_NAME}"
   - git config --global user.email "${GH_EMAIL}"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
@@ -25,7 +26,7 @@ script:
   # TODO - add semantic release, as soon as the team is ready to release
   # See https://github.com/symphonyoss/hubot-symphony as example
   - cd npm-codegen && yarn install && yarn run bundle && yarn run test && cd -
-  
+
   # Generate and test Java bundle
   # TODO - add 'yarn run publish'
   - cd mvn-codegen && yarn run generate && yarn run bundle && yarn run test && cd -
