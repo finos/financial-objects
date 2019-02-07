@@ -9,7 +9,6 @@ import { Product } from "./Product";
  * Example: IRS, USD, 10Y, LCH (Vanilla Swap), IRS, USD, 10y/5y, LCH (Vanilla Swap - 5y swap 10y fwd)
  */
 export interface Trade {
-  
   /**
    * Any interface that extends Product
    */

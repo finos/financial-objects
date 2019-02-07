@@ -1,0 +1,19 @@
+{
+  "name": "fo-test",
+  "version": "0.0.2",
+  "repository": "https://github.com/finos-fo/finos-fo.git",
+  "license": "Apache-2.0",
+  "main": "./dist/index.js",
+  "jsnext:main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "bundle": "rimraf ./dist ; tsc",
+    "test": "cd local-sample && npm install && npm run test && cd ../npm-sample && npm install && npm run test"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "quicktype": "15.0.171",
+    "tslint": "5.12.1",
+    "tslint-config-prettier": "1.17.0"
+  }
+}

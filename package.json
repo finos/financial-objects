@@ -1,0 +1,14 @@
+{
+  "name": "finos-fo-parent",
+  "repository": "https://github.com/finos-fo/finos-fo.github.io.git",
+  "license": "Apache-2.0",
+  "scripts": {
+    "format": "prettier --write \"./src/objects/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "tslint": "5.12.1",
+    "tslint-config-prettier": "1.17.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "finos-fo-codegen-pypi",
+  "repository": "https://github.com/finos-fo/finos-fo.git",
+  "license": "Apache-2.0",
+  "scripts": {
+    "quicktype-python": "rm -rf target/python ; export DIR=$PWD/.. ; mkdir -p target/python ; quicktype $DIR/src/objects/* --lang python -o target/python/financial-objects.py"
+  },
+  "devDependencies": {
+    "quicktype": "15.0.171"
+  }
+}
