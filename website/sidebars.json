@@ -5,26 +5,21 @@
       "why-fo",
       "fo-library"
     ],
-    "Core Objects": [
-      "interfaces/trade",
+    "Functional Objects": [
       "interfaces/rfq",
       "interfaces/rfqresponse",
       "interfaces/order",
       "interfaces/orderresponse",
-      "interfaces/instrument",
-      "interfaces/portfolio",
-      "interfaces/position",
       "interfaces/irs",
-      "interfaces/equity" ],
-    "Contact Objects": [
-      "interfaces/contact",
-      "interfaces/organization",
-      "interfaces/entity" ],
+      "interfaces/trade"],
     "Reference Objects": [
-      "interfaces/contactlist",
+      "interfaces/instrument",
       "interfaces/instrumentlist",
-      "interfaces/product",
-      "interfaces/producttype",
+      "interfaces/contact",
+      "interfaces/contactlist",
+      "interfaces/organization",
+      "interfaces/position",
+      "interfaces/portfolio",
       "interfaces/country" ]
   },
   "interfaces": {
@@ -33,26 +28,21 @@
       "why-fo",
       "fo-library"
     ],
-    "Core Objects": [
-      "interfaces/trade",
+    "Functional Objects": [
       "interfaces/rfq",
       "interfaces/rfqresponse",
       "interfaces/order",
       "interfaces/orderresponse",
-      "interfaces/instrument",
-      "interfaces/portfolio",
-      "interfaces/position",
       "interfaces/irs",
-      "interfaces/equity" ],
-    "Contact Objects": [
-      "interfaces/contact",
-      "interfaces/organization",
-      "interfaces/entity" ],
+      "interfaces/trade"],
     "Reference Objects": [
-      "interfaces/contactlist",
+      "interfaces/instrument",
       "interfaces/instrumentlist",
-      "interfaces/product",
-      "interfaces/producttype",
+      "interfaces/contact",
+      "interfaces/contactlist",
+      "interfaces/organization",
+      "interfaces/position",
+      "interfaces/portfolio",
       "interfaces/country" ]
   }
 }
