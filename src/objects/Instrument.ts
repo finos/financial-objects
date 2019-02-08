@@ -14,7 +14,7 @@ export interface Instrument {
     BBG?: string;
     PERMID?: string;
     FIGI?: string;
-    com.factset.symbology.entity?: string;
-    com.factset.symbology.regionalticker?: string;
+    "com.factset.symbology.entity"?: string;
+    "com.factset.symbology.regionalticker"?: string;
   };
 }
