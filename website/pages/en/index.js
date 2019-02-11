@@ -95,9 +95,9 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Financial Objects diagram</h2>
-        <MarkdownBlock>Below is the diagram that shows how financial objects get referenced</MarkdownBlock>
-        <img alt="Financial Objects hierarchy" src="img/Financial Objects hierarchy.png"/>
+        <h2>Financial Objects Hierachy</h2>
+        <MarkdownBlock>Below is an example diagram showing how financial objects can be used and referenced.</MarkdownBlock>
+        <img alt="Financial Objects Hierarchy" src="img/fo_diagram_transparent.png"/>
       </div>
     );
 
