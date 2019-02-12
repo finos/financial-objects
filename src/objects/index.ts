@@ -1,6 +1,5 @@
 export { Contact } from "./Contact";
 export { ContactList } from "./ContactList";
-export { IRS } from "./IRS";
 export { Country } from "./Country";
 export { Instrument } from "./Instrument";
 export { InstrumentList } from "./InstrumentList";
