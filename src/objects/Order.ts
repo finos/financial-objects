@@ -1,11 +1,11 @@
-import { Entity } from "./Entity";
+import { Contact } from "./Contact";
 import { Trade } from "./Trade";
 
 /**
  * The Order object can be enabled and triggered from a blotter or similar application to place an order.
  */
 export interface Order extends Trade {
-  requestor: Entity;
+  requestor: Contact;
   direction: string;
   notional: number;
   startDate: Date;

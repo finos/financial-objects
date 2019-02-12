@@ -9,7 +9,6 @@ sidebar_label: Object Library
 * [RFQResponse](interfaces/rfqresponse)
 * [Order](interfaces/order)
 * [OrderResponse](interfaces/orderresponse)
-* [IRS](interfaces/_irs_.irs)
 * [Trade](interfaces/trade)
 
 ## Reference Objects

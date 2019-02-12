@@ -1,4 +1,4 @@
-import { Entity } from "./Entity";
+import { Contact } from "./Contact";
 import { Order } from "./Order";
 
 /**

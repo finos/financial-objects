@@ -10,7 +10,6 @@
       "interfaces/rfqresponse",
       "interfaces/order",
       "interfaces/orderresponse",
-      "interfaces/irs",
       "interfaces/trade"],
     "Reference Objects": [
       "interfaces/instrument",
@@ -33,7 +32,6 @@
       "interfaces/rfqresponse",
       "interfaces/order",
       "interfaces/orderresponse",
-      "interfaces/irs",
       "interfaces/trade"],
     "Reference Objects": [
       "interfaces/instrument",
