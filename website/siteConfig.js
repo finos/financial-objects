@@ -36,8 +36,8 @@ const users = [
 const siteConfig = {
   title: 'FINOS Financial Objects', // Title for your website.
   tagline: 'Drive adoption of new and existing Financial Objects Standards that support common industry workflows and use cases',
-  url: 'https://fo-test.finos.org',
-  cname: 'fo-test.finos.org',
+  url: 'https://fo.finos.org',
+  cname: 'fo.finos.org',
   baseUrl: '/',
   projectName: 'finos-fo',
   organizationName: 'finos-fo',

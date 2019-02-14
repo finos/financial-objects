@@ -6,7 +6,7 @@
 
 FINOS Financial Objects is a community-led initiative that implements and maintains a collection of object definitions.
 
-This repository contains the object definitions and the logic to publish its documentation on [fo-test.finos.org](https://fo-test.finos.org), where you can find out how to use the objects or contribute to the project.
+This repository contains the object definitions and the logic to publish its documentation on [fo.finos.org](https://fo.finos.org), where you can find out how to use the objects or contribute to the project.
 
 If you want to build and contribute to this repository, checkout the [website README](website/README.md)
 
