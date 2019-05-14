@@ -6,20 +6,20 @@
       "fo-library"
     ],
     "Functional Objects": [
-      "interfaces/rfq",
-      "interfaces/rfqresponse",
-      "interfaces/order",
-      "interfaces/orderresponse",
-      "interfaces/trade"],
+      "objects/rfq",
+      "objects/rfqresponse",
+      "objects/order",
+      "objects/orderresponse",
+      "objects/trade"],
     "Reference Objects": [
-      "interfaces/instrument",
-      "interfaces/instrumentlist",
-      "interfaces/contact",
-      "interfaces/contactlist",
-      "interfaces/organization",
-      "interfaces/position",
-      "interfaces/portfolio",
-      "interfaces/country" ]
+      "objects/instrument",
+      "objects/instrumentlist",
+      "objects/contact",
+      "objects/contactlist",
+      "objects/organization",
+      "objects/position",
+      "objects/portfolio",
+      "objects/country" ]
   },
   "interfaces": {
     "Getting Started": [
@@ -28,19 +28,19 @@
       "fo-library"
     ],
     "Functional Objects": [
-      "interfaces/rfq",
-      "interfaces/rfqresponse",
-      "interfaces/order",
-      "interfaces/orderresponse",
-      "interfaces/trade"],
+      "objects/rfq",
+      "objects/rfqresponse",
+      "objects/order",
+      "objects/orderresponse",
+      "objects/trade"],
     "Reference Objects": [
-      "interfaces/instrument",
-      "interfaces/instrumentlist",
-      "interfaces/contact",
-      "interfaces/contactlist",
-      "interfaces/organization",
-      "interfaces/position",
-      "interfaces/portfolio",
-      "interfaces/country" ]
+      "objects/instrument",
+      "objects/instrumentlist",
+      "objects/contact",
+      "objects/contactlist",
+      "objects/organization",
+      "objects/position",
+      "objects/portfolio",
+      "objects/country" ]
   }
 }

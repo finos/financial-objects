@@ -145,25 +145,25 @@ class Index extends React.Component {
       <Block background="light" layout="fourColumn">
         {[
           {
-            content: 'Ability to define and pass through a structured object between buy-side, sell-side and financial eco-system partners. [Read More](docs/interfaces/trade)',
+            content: 'Ability to define and pass through a structured object between buy-side, sell-side and financial eco-system partners. [Read More](docs/objects/trade)',
             image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
             title: 'Trade Object',
           },
           {
-            content: 'Enabled and triggered from a blotter or similar application to place an order. [Read More]docs/interfaces/order)',
+            content: 'Enabled and triggered from a blotter or similar application to place an order. [Read More]docs/objects/order)',
             image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
             title: 'Order Object',
           },
           {
-            content: 'An extension of the trade object by identifying the additional attributes over and above the trade object. [Read More](docs/interfaces/rfq)',
+            content: 'An extension of the trade object by identifying the additional attributes over and above the trade object. [Read More](docs/objects/rfq)',
             image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
             title: 'RFQ Object',
           },
           {
-            content: 'An object with standardized names would allow for the use of several IDs to define the instrument. [Read More](docs/interfaces/instrument)',
+            content: 'An object with standardized names would allow for the use of several IDs to define the instrument. [Read More](docs/objects/instrument)',
             image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
             title: 'Instrument Object'
