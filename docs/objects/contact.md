@@ -1,53 +1,29 @@
 ---
 id: contact
-title: Contact object
+title: Contact vDraft
 sidebar_label: Contact
 ---
 
-[Source code: contact.ts](https://github.com/finos-fo/finos-fo/tree/docusaurus/src/objects/)
+An object with standardized attributes would allow for the use of several IDs to define the contact - including all well-known data-sets and open symbology reference data as well as custom inhouse IDs if needed.
 
+### Code Examples
 
-An object with standardized names would allow for the use of several IDs to define the contact - including all well-known data-sets and open symbology reference data as well as custom inhouse IDs if needed.
-
-## Hierarchy
-
-**Contact**
-
-## Index
-
-### Properties
-
-* [id](contact.md#id)
+* [FDC3 Contact](https://github.com/FDC3/ContextData/blob/master/src/examples/Contact.ts)
 
 ---
 
 ## Properties
 
-<a id="id"></a>
+###  <span style="color:#f49542">Id: `dictionary`</span>
 
-###  id
+This is a mandatory item that must contain at least one reference id, preferably but not limited to the below defined options.
 
-**● id**: *`object`*
+* <span style="color:#0000ff">email: `string`</span>
+* <span style="color:#0000ff">twitter: `string`</span>
+* <span style="color:#0000ff">phone: `string`</span>
 
-*Defined in [Contact.ts:5](https://github.com/maoo/finos-fo/blob/1d0ca0d/src/objects/Contact.ts#L5)*
+###  <span style="color:#f49542">Name: `string`</span>
 
-#### Type declaration
+This is an optional item that can be provided for better understanding of the Object when viewed without a reference database available – eg in a chat window or when linking.
 
-[x: `string`]: `string`
-
-Custom properties
-
- email: `string`
-
-Contact email address - [https://tools.ietf.org/html/rfc5322](https://tools.ietf.org/html/rfc5322)
-
- phone: `string`
-
-Phone number - (+xx xxx xxx xxxx)
-
- twitter: `string`
-
-Twitter account name
-
-___
-
+---

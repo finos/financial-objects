@@ -1,51 +1,28 @@
 ---
 id: country
-title: Country object
+title: Country vDraft
 sidebar_label: Country
 ---
 
-[Source code: country.ts](https://github.com/finos-fo/finos-fo/tree/docusaurus/src/objects/)
-
-
 An object with standardized names would allow for the use of several IDs to define the country - including all well-known data-sets and open symbology reference data as well as custom inhouse IDs if needed.
 
-## Hierarchy
+### Code Examples
 
-**Country**
-
-## Index
-
-### Properties
-
-* [id](country.md#id)
-* [name](country.md#name)
+* [FDC3 Country](https://github.com/FDC3/ContextData/blob/master/src/examples/Country.ts)
 
 ---
 
 ## Properties
 
-<a id="id"></a>
+###  <span style="color:#f49542">Id: `dictionary`</span>
 
-###  id
+This is an optional item that should contain at least one reference id, preferably but not limited to the below defined options.
 
-**● id**: *`object`*
+* <span style="color:#0000ff">ISOALPHA2: `string`</span>
+* <span style="color:#0000ff">ISOALPHA2: `string`</span>
 
-*Defined in [Country.ts:6](https://github.com/maoo/finos-fo/blob/1d0ca0d/src/objects/Country.ts#L6)*
+###  <span style="color:#f49542">Name: `string`</span>
 
-#### Type declaration
+This is an optional item that can be provided for better understanding of the Object when viewed without a reference database available – eg in a chat window or when linking.
 
-`Optional`  ISOALPHA2: `string`
-
-`Optional`  ISOALPHA3: `string`
-
-___
-<a id="name"></a>
-
-###  name
-
-**● name**: *`string`*
-
-*Defined in [Country.ts:5](https://github.com/maoo/finos-fo/blob/1d0ca0d/src/objects/Country.ts#L5)*
-
-___
-
+---

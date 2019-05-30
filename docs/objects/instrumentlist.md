@@ -1,35 +1,25 @@
 ---
 id: instrumentlist
-title: InstrumentList object
+title: InstrumentList v1.0.0
 sidebar_label: InstrumentList
 ---
 
-[Source code: instrumentlist.ts](https://github.com/finos-fo/finos-fo/tree/docusaurus/src/objects/)
-
-
 A standardized format for a list of Instruments.
 
-## Hierarchy
+### Code Examples
 
-**InstrumentList**
-
-## Index
-
-### Properties
-
-* [instruments](instrumentlist.md#instruments)
+* [FDC3 InstrumentList](https://github.com/FDC3/ContextData/blob/master/src/examples/InstrumentList.ts)
 
 ---
 
 ## Properties
 
-<a id="instruments"></a>
+###  <span style="color:#2faf40">Instruments: `array`</span>
 
-###  instruments
+This is a mandatory item that must contain a list of Instruments.
 
-**● instruments**: *[Instrument](instrument.md)[]*
+###  <span style="color:#f49542">Name: `string`</span>
 
-*Defined in [InstrumentList.ts:7](https://github.com/maoo/finos-fo/blob/1d0ca0d/src/objects/InstrumentList.ts#L7)*
+This is an optional item that can be provided for better understanding of the Object – eg in a chat window or when linking.
 
-___
-
+---

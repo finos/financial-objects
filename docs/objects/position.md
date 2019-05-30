@@ -1,45 +1,29 @@
 ---
 id: position
-title: Position object
+title: Position v1.0.0
 sidebar_label: Position
 ---
 
-[Source code: position.ts](https://github.com/finos-fo/finos-fo/tree/docusaurus/src/objects/)
-
-
 A standardized format to transfer an Instrument and unique meta data for a position, with possibility to extend what is included for the position, including custom inhouse IDs if needed.
 
-## Hierarchy
+### Code Examples
 
-**Position**
-
-## Index
-
-### Properties
-
-* [holding](position.md#holding)
-* [instrument](position.md#instrument)
+* [FDC3 Position](https://github.com/FDC3/ContextData/blob/master/src/examples/Position.ts)
 
 ---
 
 ## Properties
 
-<a id="holding"></a>
+###  <span style="color:#2faf40">Instruments: `array`</span>
 
-###  holding
+This is a mandatory item that must contain a list of Instruments.
 
-**● holding**: *`number`*
+###  <span style="color:#f49542">Name: `string`</span>
 
-*Defined in [Position.ts:8](https://github.com/maoo/finos-fo/blob/1d0ca0d/src/objects/Position.ts#L8)*
+This is an optional item that can be provided for better understanding of the Object – eg in a chat window or when linking.
 
-___
-<a id="instrument"></a>
+###  <span style="color:#f49542">Holding: `integer`</span>
 
-###  instrument
+This is an optional item that should be used when specifying the number of items in the position - eg shares held.
 
-**● instrument**: *[Instrument](instrument.md)*
-
-*Defined in [Position.ts:7](https://github.com/maoo/finos-fo/blob/1d0ca0d/src/objects/Position.ts#L7)*
-
-___
-
+---

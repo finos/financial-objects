@@ -1,53 +1,29 @@
 ---
 id: organization
-title: Organization object
+title: Organization v1.0.1
 sidebar_label: Organization
 ---
 
-[Source code: organization.ts](https://github.com/finos-fo/finos-fo/tree/docusaurus/src/objects/)
-
-
 An object with standardized names would allow for the use of several IDs to define the organization - including all well-known data-sets and open symbology reference data as well as custom inhouse IDs if needed.
 
-## Hierarchy
+### Code Examples
 
-**Organization**
-
-## Index
-
-### Properties
-
-* [id](organization.md#id)
-* [name](organization.md#name)
+* [FDC3 Organization](https://github.com/FDC3/ContextData/blob/master/src/examples/Organization.ts)
 
 ---
 
 ## Properties
 
-<a id="id"></a>
+###  <span style="color:#ff0000">Id: `dictionary`</span>
 
-###  id
+This is a mandatory item that must contain at least one reference id, preferably but not limited to the below defined options.
 
-**● id**: *`object`*
+* <span style="color:#0000ff">LEI: `string`</span>
+* <span style="color:#0000ff">PERMID: `string`</span>
+* <span style="color:#0000ff">FDS_ID: `string`</span>
 
-*Defined in [Organization.ts:6](https://github.com/maoo/finos-fo/blob/1d0ca0d/src/objects/Organization.ts#L6)*
+###  <span style="color:#f49542">Name: `string`</span>
 
-#### Type declaration
+This is an optional item that can be provided for better understanding of the Object when viewed without a reference database available – eg in a chat window or when linking.
 
-`Optional`  FDS_ID: `string`
-
-`Optional`  LEI: `string`
-
-`Optional`  PERMID: `string`
-
-___
-<a id="name"></a>
-
-###  name
-
-**● name**: *`string`*
-
-*Defined in [Organization.ts:5](https://github.com/maoo/finos-fo/blob/1d0ca0d/src/objects/Organization.ts#L5)*
-
-___
-
+---

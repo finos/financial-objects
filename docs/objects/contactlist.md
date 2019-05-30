@@ -1,35 +1,24 @@
 ---
 id: contactlist
-title: ContactList object
+title: ContactList v1.0.0
 sidebar_label: ContactList
 ---
-
-[Source code: contactlist.ts](https://github.com/finos-fo/finos-fo/tree/docusaurus/src/objects/)
-
-
 A standardized format for a list of Contacts.
 
-## Hierarchy
+### Code Examples
 
-**ContactList**
-
-## Index
-
-### Properties
-
-* [contacts](contactlist.md#contacts)
+* [FDC3 InstrumentList](https://github.com/FDC3/ContextData/blob/master/src/examples/InstrumentList.ts)
 
 ---
 
 ## Properties
 
-<a id="contacts"></a>
+###  <span style="color:#2faf40">Contacts: `array`</span>
 
-###  contacts
+This is a mandatory item that must contain a list of Contacts.
 
-**● contacts**: *[Contact](contact.md)[]*
+###  <span style="color:#f49542">Name: `string`</span>
 
-*Defined in [ContactList.ts:7](https://github.com/maoo/finos-fo/blob/1d0ca0d/src/objects/ContactList.ts#L7)*
+This is an optional item that can be provided for better understanding of the Object – eg in a chat window or when linking.
 
-___
-
+---

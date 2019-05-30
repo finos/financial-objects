@@ -1,49 +1,31 @@
 ---
 id: portfolio
-title: Portfolio object
+title: Portfolio v1.0.0
 sidebar_label: Portfolio
 ---
 
-[Source code: portfolio.ts](https://github.com/finos-fo/finos-fo/tree/docusaurus/src/objects/)
-
-
 A standardized format to transfer Positions and unique meta data for a portfolio, with possibility to extend what is included for the portfolio, including custom inhouse IDs if needed.
 
-## Hierarchy
+### Code Examples
 
-**Portfolio**
-
-## Index
-
-### Properties
-
-* [id](portfolio.md#id)
-* [positions](portfolio.md#positions)
+* [FDC3 Portfolio](https://github.com/FDC3/ContextData/blob/master/src/examples/Portfolio.ts)
 
 ---
 
 ## Properties
 
-<a id="id"></a>
+###  <span style="color:#2faf40">Positions: `array`</span>
 
-###  id
+This is a mandatory item that must contain a list of Positions.
 
-**● id**: *`object`*
+###  <span style="color:#f49542">Name: `string`</span>
 
-*Defined in [Portfolio.ts:7](https://github.com/maoo/finos-fo/blob/1d0ca0d/src/objects/Portfolio.ts#L7)*
+This is an optional item that can be provided for better understanding of the Object – eg in a chat window or when linking.
 
-#### Type declaration
+###  <span style="color:#f49542">Id: `dictionary`</span>
 
-`Optional`  portfolioId: `string`
+This is an optional item that should contain at least one reference id.
 
-___
-<a id="positions"></a>
+* <span style="color:#0000ff">id: `string`</span>
 
-###  positions
-
-**● positions**: *[Position](position.md)[]*
-
-*Defined in [Portfolio.ts:10](https://github.com/maoo/finos-fo/blob/1d0ca0d/src/objects/Portfolio.ts#L10)*
-
-___
-
+---
