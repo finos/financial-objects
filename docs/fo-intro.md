@@ -6,20 +6,10 @@ sidebar_label: Introduction
 ![FO](/img/fo-logo-white.gif)
 
 # FINOS Financial Objects
-FINOS Financial Objects is a community-led initiative that implements and maintains a collection of object definitions.
+FINOS Financial Objects is a community-led initiative that defines and maintains object structures for a wide range for financial interactions - everything from basic context linking of applications using different datasets to complex transactional workflows.
 
-## Browse Financial Objects
-Visit [finos-fo.github.io](https://finos-fo.github.io) to browse all object definitions.
-
-## Use Financial Objects
-Object definition sources can be found in the [src/objects](src/objects) folder; the examples folder provides examples in TypeScript, Java, C# and Python.
-
-## Contributing
-1. Fork it (<https://github.com/finos-fo/finos-fo.github.io/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+## Using Financial Objects
+Visit the [Object Library](https://fo.finos.org/docs/fo-library) to browse all object definitions and view example implementations.
 
 ## Participating
 1. Read our documentation on [finos-fo.finos.org](finos-fo.finos.org)
