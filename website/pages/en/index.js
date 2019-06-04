@@ -151,7 +151,7 @@ class Index extends React.Component {
             title: 'Trade Object',
           },
           {
-            content: 'Enabled and triggered from a blotter or similar application to place an order. [Read More]docs/objects/order)',
+            content: 'Enabled and triggered from a blotter or similar application to place an order. [Read More](docs/objects/order)',
             image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
             title: 'Order Object',
