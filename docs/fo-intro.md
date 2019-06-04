@@ -3,7 +3,7 @@ id: fo-intro
 title: Welcome to FINOS Financial Objects
 sidebar_label: Introduction
 ---
-![FO](/img/fo-logo-white.gif)
+![FO](/img/2019_FO_Icon_CLR.png)
 
 # FINOS Financial Objects
 FINOS Financial Objects is a community-led initiative that implements and maintains a collection of object definitions.
