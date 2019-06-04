@@ -9,7 +9,7 @@ sidebar_label: Introduction
 FINOS Financial Objects is a community-led initiative that defines and maintains object structures for a wide range for financial interactions - everything from basic context linking of applications using different datasets to complex transactional workflows.
 
 ## Using Financial Objects
-Visit the [Object Library](https://fo.finos.org/docs/fo-library) to browse all object definitions and view example implementations.
+Visit the [Object Library](/docs/fo-library) to browse all object definitions and view example implementations.
 
 ## Participating
 1. Read our documentation on [finos-fo.finos.org](finos-fo.finos.org)
