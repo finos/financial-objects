@@ -6,5 +6,6 @@ export interface Organization {
   id: {
     LEI?: string;
     PERMID?: string;
+    FDS_ID?: string;
   };
 }

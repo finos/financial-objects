@@ -17,3 +17,6 @@ mvn-codegen/node_modules/
 
 # Typedoc generated .md files
 docs/interfaces/
+node_modules
+package-lock.json
+yarn.lock

@@ -5,18 +5,18 @@ sidebar_label: Object Library
 ---
 
 ## Functional Objects
-* [RFQ](interfaces/rfq)
-* [RFQResponse](interfaces/rfqresponse)
-* [Order](interfaces/order)
-* [OrderResponse](interfaces/orderresponse)
-* [Trade](interfaces/trade)
+* [RFQ](objects/rfq)
+* [RFQResponse](objects/rfqresponse)
+* [Order](objects/order)
+* [OrderResponse](objects/orderresponse)
+* [Trade](objects/trade)
 
 ## Reference Objects
-* [Instrument](interfaces/instrument)
-* [InstrumentList](interfaces/instrumentlist)
-* [Contact](interfaces/contact)
-* [ContactList](interfaces/contactlist)
-* [Organization](interfaces/organization)
-* [Position](interfaces/position)
-* [Portfolio](interfaces/portfolio)
-* [Country](interfaces/country)
+* [Instrument](objects/instrument)
+* [InstrumentList](objects/instrumentlist)
+* [Contact](objects/contact)
+* [ContactList](objects/contactlist)
+* [Organization](objects/organization)
+* [Position](objects/position)
+* [Portfolio](objects/portfolio)
+* [Country](objects/country)
