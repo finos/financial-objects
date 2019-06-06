@@ -5,5 +5,18 @@
 <url> <loc>https://fo.finos.org/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/en/users" /> </url>
 <url> <loc>https://fo.finos.org/docs/fo-intro</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/fo-intro" /> </url>
 <url> <loc>https://fo.finos.org/docs/fo-library</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/fo-library" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/contact</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/contact" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/contactlist</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/contactlist" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/country</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/country" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/instrument</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/instrument" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/instrumentlist</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/instrumentlist" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/order</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/order" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/orderresponse</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/orderresponse" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/organization</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/organization" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/portfolio</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/portfolio" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/position</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/position" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/rfq</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/rfq" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/rfqresponse</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/rfqresponse" /> </url>
+<url> <loc>https://fo.finos.org/docs/objects/trade</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/objects/trade" /> </url>
 <url> <loc>https://fo.finos.org/docs/why-fo</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fo.finos.org/docs/why-fo" /> </url>
 </urlset>
