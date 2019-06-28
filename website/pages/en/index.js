@@ -62,6 +62,7 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         {/* <Logo img_src={`${baseUrl}img/docusaurus.svg`} /> */}
         <div className="inner">
+          <img src="img/fo-icon-2019.png"></img>
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href={docUrl('fo-intro')}>Get Started</Button>
@@ -114,19 +115,7 @@ class Index extends React.Component {
       </Block>
     );
 
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'right',
-            title: 'Description',
-          },
-        ]}
-      </Block>
-    );
+
 
     const LearnHow = () => (
       <Block background="light">
@@ -172,6 +161,45 @@ class Index extends React.Component {
       </Block>
     );
 
+    const Description = props => (
+      <div
+        className="productShowcaseSection paddingTop lightBackground paddingBottom"
+        style={{textAlign: 'center'}}>
+        <div class="wrapper">
+            <div class="gridBlock"
+            style={{textAlign: 'center'}}>
+              <div class="blockElement twoByGridBlock">
+    
+            <h2>About Financial Objects</h2>
+            <MarkdownBlock background="dark">
+            FINOS Financial Objects is a community-led initiative that defines and maintains object structures for a wide range for financial interactions - everything from basic context linking of applications using different datasets to complex transactional workflows.
+            </MarkdownBlock>
+            <MarkdownBlock>
+            The Financial Objects Program, launched in July 2018, was formed to drive adoption of new and existing Financial Object Standards across the Financial Services Industry, through a FINOS Program that brings together creators of Financial Objects with users of Financial Objects. Standardization of Financial Objects is valuable to the Financial Services industry because it will lower integration and transaction costs, simplify processing across organizational boundaries, enable the mutualization of commodity software for handling these objects, and improve the discoverability of data and overall interpretability and readiness for data analysis tools.
+            </MarkdownBlock>
+            <MarkdownBlock>
+        
+            </MarkdownBlock>
+            <MarkdownBlock>
+        
+            </MarkdownBlock>
+        
+              </div>
+              <div class="blockElement imageAlineSide imageAlineRight twoByGridBlock">
+                  <div class="blockElement">
+                    <div></div>
+                  </div>
+                  <div class="blockImage">
+                    <img src="img/fo-icon-2019-color.png"></img>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    );
+
+
+    
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
         return null;
@@ -207,9 +235,9 @@ class Index extends React.Component {
           <Features />
           <FeatureCallout />
           {/* <LearnHow />
-          <TryOut />
+          <TryOut /> */}
           <Description />
-          <Showcase /> */}
+          {/*<Showcase /> */}
         </div>
       </div>
     );
