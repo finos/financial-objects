@@ -88,7 +88,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/finos-fo/finos-fo'
+  repoUrl: 'https://github.com/grizzwolf/finos-fo'
 };
 
 module.exports = siteConfig;
