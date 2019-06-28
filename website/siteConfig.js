@@ -36,11 +36,11 @@ const users = [
 const siteConfig = {
   title: 'FINOS Financial Objects', // Title for your website.
   tagline: 'Drive adoption of new and existing Financial Objects Standards that support common industry workflows and use cases',
-  url: 'https://fo.finos.org',
+  url: 'https://grizzwolf.github.io/finos-fo',
   cname: 'fo.finos.org',
   baseUrl: '/',
   projectName: 'finos-fo',
-  organizationName: 'finos-fo',
+  organizationName: 'grizzwolf',
   headerLinks: [
     {doc: 'fo-intro', label: 'Intro'},    
     {doc: 'fo-library', label: 'Object Library'},
