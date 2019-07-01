@@ -38,7 +38,7 @@ const siteConfig = {
   tagline: 'Drive adoption of new and existing Financial Objects Standards that support common industry workflows and use cases',
   url: 'https://grizzwolf.github.io/finos-fo/',
   //cname: 'fo.finos.org',
-  baseUrl: '/',
+  baseUrl: '/finos-fo/',
   projectName: 'finos-fo',
   organizationName: 'grizzwolf',
   headerLinks: [
