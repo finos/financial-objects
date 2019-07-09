@@ -36,11 +36,11 @@ const users = [
 const siteConfig = {
   title: 'FINOS Financial Objects', // Title for your website.
   tagline: 'Drive adoption of new and existing Financial Objects Standards that support common industry workflows and use cases',
-  url: 'https://fo.finos.org',
-  cname: 'fo.finos.org',
-  baseUrl: '/',
+  url: 'https://grizzwolf.github.io/finos-fo/',
+  //cname: 'fo.finos.org',
+  baseUrl: '/finos-fo/',
   projectName: 'finos-fo',
-  organizationName: 'finos-fo',
+  organizationName: 'grizzwolf',
   headerLinks: [
     {doc: 'fo-intro', label: 'Intro'},    
     {doc: 'fo-library', label: 'Object Library'},
@@ -88,7 +88,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/finos-fo/finos-fo'
+  repoUrl: 'https://github.com/grizzwolf/finos-fo'
 };
 
 module.exports = siteConfig;
