@@ -3,7 +3,7 @@ id: fo-intro
 title: Welcome to FINOS Financial Objects
 sidebar_label: Introduction
 ---
-![FO](/img/2019_FO_Icon_CLR.png)
+![FO](assets/2019_FO_Icon_CLR.png)
 
 # FINOS Financial Objects
 FINOS Financial Objects is a community-led initiative that defines and maintains object structures for a wide range for financial interactions - everything from basic context linking of applications using different datasets to complex transactional workflows.
