@@ -20,24 +20,26 @@ before_install:
 
 script:
   # Build the website
-  - cd website && yarn install && yarn run typedoc && yarn run build && cd -
+  # Typedoc is currently disabled, .md files are manually edited in docs/objects folder
+  # - cd website && yarn install && yarn run typedoc && yarn run build && cd -
+  - cd website && yarn install && yarn run build && cd -
 
   # Generate and test NPM bundle
   # TODO - add semantic release, as soon as the team is ready to release
   # See https://github.com/symphonyoss/hubot-symphony as example
-  - cd npm-codegen && yarn install && yarn run bundle && yarn run test && cd -
+  # - cd npm-codegen && yarn install && yarn run bundle && yarn run test && cd -
 
   # Generate and test Java bundle
   # TODO - add 'yarn run publish'
-  - cd mvn-codegen && yarn install && yarn run generate && yarn run bundle && yarn run test && cd -
+  # - cd mvn-codegen && yarn install && yarn run generate && yarn run bundle && yarn run test && cd -
 
   # Generate C#
   # TODO - write/run test and generate bundles
-  - cd nuget-codegen && yarn install && yarn run generate && cd -
+  # - cd nuget-codegen && yarn install && yarn run generate && cd -
 
   # Generate Python
   # TODO - write/run test and generate bundles
-  - cd pypi-codegen && yarn install && yarn run generate && cd -
+  # - cd pypi-codegen && yarn install && yarn run generate && cd -
 
 deploy:
   - provider: pages

@@ -46,12 +46,12 @@ const siteConfig = {
     {doc: 'fo-library', label: 'Object Library'},
     {page: 'getinvolved', label: 'Get Involved'}
   ],
-  headerIcon: 'img/finos-white.png',
-  footerIcon: 'img/finos.png',
+  headerIcon: 'img/fo-icon-2019.png',
+  footerIcon: 'img/fo-icon-2019.png',
   favicon: 'img/favicon/favicon.ico',
   colors: {
-    primaryColor: '#00b5e2',
-    secondaryColor: '#205C3B',
+    primaryColor: '#0086bf',
+    secondaryColor: '#000000',
   },
 
   // If you have users set above, you add it here:
