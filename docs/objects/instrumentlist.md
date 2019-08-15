@@ -14,12 +14,12 @@ A standardized format for a list of Instruments.
 
 ## Properties
 
-###  <span style="color:#2faf40">Instruments: `array`</span>
+###  Instruments: `array`
 
-This is a mandatory item that must contain a list of Instruments.
+This is a <span class="mandatory property">mandatory</span> item that must contain a list of <span class="object property">Instruments</span>.
 
-###  <span style="color:#f49542">Name: `string`</span>
+###  Name: `string`
 
-This is an optional item that can be provided for better understanding of the Object – eg in a chat window or when linking.
+This is an <span class="optional property">optional</span> item that can be provided for better understanding of the Object – eg in a chat window or when linking.
 
 ---

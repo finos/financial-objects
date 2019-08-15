@@ -14,16 +14,16 @@ An object with standardized names would allow for the use of several IDs to defi
 
 ## Properties
 
-###  <span style="color:#ff0000">Id: `dictionary`</span>
+###  Id: `dictionary`
 
-This is a mandatory item that must contain at least one reference id, preferably but not limited to the below defined options.
+This is a <span class="mandatory property">mandatory</span> item that must contain at least one reference id, preferably but not limited to the below defined options.
 
-* <span style="color:#0000ff">LEI: `string`</span>
-* <span style="color:#0000ff">PERMID: `string`</span>
-* <span style="color:#0000ff">FDS_ID: `string`</span>
+* <span class="reference">LEI: `string`</span>
+* <span class="reference">PERMID: `string`</span>
+* <span class="reference">FDS_ID: `string`</span>
 
-###  <span style="color:#f49542">Name: `string`</span>
+###  Name: `string`
 
-This is an optional item that can be provided for better understanding of the Object when viewed without a reference database available – eg in a chat window or when linking.
+This is an <span class="optional property">optional</span> item that can be provided for better understanding of the Object when viewed without a reference database available – eg in a chat window or when linking.
 
 ---

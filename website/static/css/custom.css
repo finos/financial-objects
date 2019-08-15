@@ -174,3 +174,24 @@ header.postHeader:empty {
   .nav-footer .sitemap{
     margin: 0 auto 1em;
   }
+  
+  .property {
+    font-weight: 700;
+  }
+  
+  .mandatory {
+    color: #ff0000;
+  }
+  
+  .optional {
+    color: #f49542;
+  }
+  
+  .object {
+    color: #2faf40;
+  }
+  
+  .reference {
+    color: #0000ff;
+  }
+  
