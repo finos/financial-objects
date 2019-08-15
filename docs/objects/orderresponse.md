@@ -10,16 +10,16 @@ Response to the Order object request
 
 ## Properties
 
-###  <span style="color:#2faf40">Responder: `object`</span>
+###  Responder: `object`
 
-This is a mandatory item that should contain a Contact or an Organization.
+This is a <span class="mandatory property">mandatory</span> item that should contain a <span class="object property">Contact</span> or an <span class="object property">Organization</span>.
 
-###  <span style="color:#ff0000">ReceiveFixedLevel: `integer`</span>
+###  ReceiveFixedLevel: `integer`
 
-This is a mandatory item.
+This is a <span class="mandatory property">mandatory</span> item.
 
-###  <span style="color:#2faf40">RFQ: `object`</span>
+###  Order: `object`
 
-This is a mandatory item that should contain an Order.
+This is a mandatory item that should contain an <span class="object property">Order</span>.
 
 ---

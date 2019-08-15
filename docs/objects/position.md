@@ -14,16 +14,16 @@ A standardized format to transfer an Instrument and unique meta data for a posit
 
 ## Properties
 
-###  <span style="color:#2faf40">Instruments: `array`</span>
+###  Instrument: `object`
 
-This is a mandatory item that must contain a list of Instruments.
+This is a <span class="mandatory property">mandatory</span> item that must contain a single <span class="object property">Instrument</span>.
 
-###  <span style="color:#f49542">Name: `string`</span>
+###  Name: `string`
 
-This is an optional item that can be provided for better understanding of the Object – eg in a chat window or when linking.
+This is an <span class="optional property">optional</span> item that can be provided for better understanding of the Object – eg in a chat window or when linking.
 
-###  <span style="color:#f49542">Holding: `integer`</span>
+###  Holding: `integer`
 
-This is an optional item that should be used when specifying the number of items in the position - eg shares held.
+This is an <span class="optional property">optional</span> item that should be used when specifying the number of items in the position - eg shares held.
 
 ---

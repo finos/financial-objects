@@ -10,20 +10,20 @@ Ability to define and pass through a structured object between buy-side, sell-si
 
 ## Properties
 
-###  <span style="color:#ff0000">Product: `string`</span>
+###  Product: `string`
 
-This is a mandatory item.
+This is a <span class="mandatory property">mandatory</span> item.
 
-###  <span style="color:#ff0000">Currency: `string`</span>
+###  Currency: `string`
 
-This is a mandatory item that must include an ISO 4217 currency code - https://en.wikipedia.org/wiki/ISO_4217.
+This is a <span class="mandatory property">mandatory</span> item that must include an ISO 4217 currency code - https://en.wikipedia.org/wiki/ISO_4217.
 
-###  <span style="color:#ff0000">Maturity: `string`</span>
+###  Maturity: `string`
 
-This is a mandatory item.
+This is a <span class="mandatory property">mandatory</span> item.
 
-###  <span style="color:#ff0000">Clear: `string`</span>
+###  Clear: `string`
 
-This is a mandatory item.
+This is a <span class="mandatory property">mandatory</span> item.
 
 ---

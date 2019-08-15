@@ -10,32 +10,32 @@ The Order object can be enabled and triggered from a blotter or similar applicat
 
 ## Properties
 
-###  <span style="color:#2faf40">Requestor: `object`</span>
+###  Requestor: `object`
 
-This is a mandatory item that should contain a Contact or an Organization.
+This is a <span class="mandatory property">mandatory</span> item that should contain a <span class="object property">Contact</span> or an <span class="object property">Organization</span>.
 
-###  <span style="color:#ff0000">Direction: `string`</span>
+###  Direction: `string`
 
-This is a mandatory item.
+This is a <span class="mandatory property">mandatory</span> item.
 
-###  <span style="color:#ff0000">Notional: `integer`</span>
+###  Notional: `integer`
 
-This is a mandatory item.
+This is a <span class="mandatory property">mandatory</span> item.
 
-###  <span style="color:#ff0000">StartDate: `date`</span>
+###  StartDate: `date`
 
-This is a mandatory item that must include a timestamp in Unix Time - https://en.wikipedia.org/wiki/Unix_time.
+This is a <span class="mandatory property">mandatory</span> item that must include a timestamp in Unix Time - https://en.wikipedia.org/wiki/Unix_time.
 
-###  <span style="color:#ff0000">EndDate: `date`</span>
+###  EndDate: `date`
 
-This is a mandatory item that must include a timestamp in Unix Time - https://en.wikipedia.org/wiki/Unix_time.
+This is a <span class="mandatory property">mandatory</span> item that must include a timestamp in Unix Time - https://en.wikipedia.org/wiki/Unix_time.
 
-###  <span style="color:#ff0000">RollConvention: `string`</span>
+###  RollConvention: `string`
 
-This is a mandatory item.
+This is a <span class="mandatory property">mandatory</span> item.
 
-###  <span style="color:#2faf40">Trade: `object`</span>
+###  Trade: `object`
 
-This is a mandatory item that should contain a Trade object.
+This is a <span class="mandatory property">mandatory</span> item that should contain a <span class="object property">Trade</span>.
 
 ---

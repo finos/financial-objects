@@ -14,16 +14,16 @@ An object with standardized attributes would allow for the use of several IDs to
 
 ## Properties
 
-###  <span style="color:#f49542">Id: `dictionary`</span>
+###  Id: `dictionary`
 
-This is a mandatory item that must contain at least one reference id, preferably but not limited to the below defined options.
+This is a <span class="mandatory property">mandatory</span> item that must contain at least one reference id, preferably but not limited to the below defined options.
 
-* <span style="color:#0000ff">email: `string`</span>
-* <span style="color:#0000ff">twitter: `string`</span>
-* <span style="color:#0000ff">phone: `string`</span>
+* <span class="reference">email: `string`</span>
+* <span class="reference">twitter: `string`</span>
+* <span class="reference">phone: `string`</span>
 
-###  <span style="color:#f49542">Name: `string`</span>
+###  Name: `string`
 
-This is an optional item that can be provided for better understanding of the Object when viewed without a reference database available – eg in a chat window or when linking.
+This is an <span class="optional property">optional</span> item that can be provided for better understanding of the Object when viewed without a reference database available – eg in a chat window or when linking.
 
 ---

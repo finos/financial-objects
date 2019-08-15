@@ -14,18 +14,18 @@ A standardized format to transfer Positions and unique meta data for a portfolio
 
 ## Properties
 
-###  <span style="color:#2faf40">Positions: `array`</span>
+###  Positions: `array`
 
-This is a mandatory item that must contain a list of Positions.
+This is a <span class="mandatory property">mandatory</span> item that must contain a list of <span class="object property">Positions</span>.
 
-###  <span style="color:#f49542">Name: `string`</span>
+###  Name: `string`
 
-This is an optional item that can be provided for better understanding of the Object – eg in a chat window or when linking.
+This is an <span class="optional property">optional</span> item that can be provided for better understanding of the Object – eg in a chat window or when linking.
 
-###  <span style="color:#f49542">Id: `dictionary`</span>
+###  Id: `dictionary`
 
-This is an optional item that should contain at least one reference id.
+This is an <span class="optional property">optional</span> item that should contain at least one reference id.
 
-* <span style="color:#0000ff">id: `string`</span>
+* <span class="reference">id: `string`</span>
 
 ---
