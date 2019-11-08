@@ -1,6 +1,6 @@
 ---
 id: country
-title: Country vDraft
+title: Country v1.0.0
 sidebar_label: Country
 ---
 
