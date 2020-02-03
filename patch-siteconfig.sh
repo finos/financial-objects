@@ -14,7 +14,7 @@ echo "Patching repo $REPO_NAME ..."
 
 BASE_URL="'\/$REPO_NAME\/',"
 
-URL="'\/https:\/\/${USER_NAME}.github.io\/$REPO_NAME\/',"
+URL="'\/https:\/\/${USER_NAME}.github.io\/$REPO_NAME',"
 
 sed -i "s/baseUrl:.*/baseUrl: $BASE_URL/" website/siteConfig.js
 
