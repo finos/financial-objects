@@ -38,9 +38,11 @@ jobs:
       uses: actions/setup-node@v1
     - name: Install Website deps
       run: npm install --prefix website
+    - name: Patch forked version
+      if: github.actor != 'finos'
+      run: ./patch-siteconfig.sh ${{ env.repoName }} ${{ github.actor }}
     - name: Build Website
       run: |
-        ./patch-siteconfig.sh ${{ env.repoName }} ${{ github.actor }}
         npm run build --prefix website
         git checkout website/siteConfig.js
     - name: Commit files
