@@ -67,5 +67,3 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         msg: "Website preview available at https://${{ github.actor }}.github.io/${{ env.repoName }}"
-
-        
