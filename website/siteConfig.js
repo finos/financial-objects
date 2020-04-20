@@ -88,7 +88,10 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/finos-fo/finos-fo'
+  repoUrl: 'https://github.com/finos-fo/finos-fo',
+
+  //Google Analytics tracking ID to track page views.
+  gaTrackingId: 'UA-89349362-9'
 };
 
 module.exports = siteConfig;
