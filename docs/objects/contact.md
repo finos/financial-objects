@@ -1,6 +1,6 @@
 ---
 id: contact
-title: Contact vDraft
+title: Contact v1.0.0
 sidebar_label: Contact
 ---
 
@@ -19,8 +19,7 @@ An object with standardized attributes would allow for the use of several IDs to
 This is a <span class="mandatory property">mandatory</span> item that must contain at least one reference id, preferably but not limited to the below defined options.
 
 * <span class="reference">email: `string`</span>
-* <span class="reference">twitter: `string`</span>
-* <span class="reference">phone: `string`</span>
+* <span class="reference">FDS_ID: `string`</span>
 
 ###  Name: `string`
 
