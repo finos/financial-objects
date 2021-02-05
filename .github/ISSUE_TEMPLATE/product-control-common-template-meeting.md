@@ -10,8 +10,7 @@ labels: meeting
 Monday, MMM DD YYYY - 10am ET / 3pm GMT
 
 ## Untracked attendees
-- Fullname, Affiliation, (optional) GitHub username
-- [ ] _Add items here_
+- Fullname, Affiliation, GitHub username
 
 ## Meeting notices
 - FINOS **Project leads** are responsible for observing the FINOS guidelines for [running project meetings](https://github.com/finos/community/blob/master/governance/Meeting-Procedures.md#run-the-meeting). Project maintainers can find additional resources in the [FINOS Maintainers Cheatsheet](https://odp.finos.org/docs/finos-maintainers-cheatsheet/).
