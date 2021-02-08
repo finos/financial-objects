@@ -1,7 +1,7 @@
 ---
-name: "\U0001F91D Financial Objects: Commodity Payout Terms  Meeting Minutes"
-about: To track agenda and attendance for Commodity Payout Terms Meetings
-title: DD MMM YYYY - Commodity Payout Terms Meeting Minutes
+name: "\U0001F91D Financial Objects: Commodities Payout Terms  Meeting Minutes"
+about: To track agenda and attendance for Commodities Payout Terms Meetings
+title: DD MMM YYYY - Commodities Payout Terms Meeting Minutes
 labels: meeting
 
 ---
