@@ -6,7 +6,9 @@
 
 Welcome to the Financial Objects project, led by Goldman Sachs and hosted by FINOS, The Fintech Open Source Foundation. 
 
-All Financial Objects collaboration activities, including meeting minutes, are hosted on this Financial Objects GitHub repo. Activities prior to July 2020 can be found in the [Financial Objects project archive](https://fo.finos.org)). For more information about FINOS project materials and communication, please review the [FINOS Governance](https://github.com/finos/community/blob/master/governance/Collaborative-Principles.md).
+All Financial Objects collaboration activities, including meeting minutes, are hosted on this [Financial Objects GitHub repository](https://github.com/finos/finos-fo), and in this [GitLab project](https://gitlab.legend.finos.org/legend-pilot/cdm). Activities prior to July 2020 can be found in the [Financial Objects project archive](https://fo.finos.org). 
+
+For more information about FINOS project materials and communication, please review the [FINOS Governance](https://github.com/finos/community/blob/master/governance/Collaborative-Principles.md).
 
 ### Background 
 
