@@ -10,11 +10,11 @@ All Financial Objects collaboration activities, including meeting minutes, are h
 
 ### Background 
 
-The Financial Objects project was launched in  and was led by Johan Sandersson (Factset) and Hammad Akbar (Citi) until July 2020, when they expressed their intention to step down as project leads. See this GitHub issue _[Choose new project leads for FO](https://github.com/finos/finos-fo/issues/36)_ for context.
+The Financial Objects project was led by Johan Sandersson (Factset) and Hammad Akbar (Citi) until July 2020, when they expressed their intention to step down as project leads. See this GitHub issue _[Choose new project leads for FO](https://github.com/finos/finos-fo/issues/36)_ for context.
 
-Between July 2020 and February 2021, the FINOS Community engaged with the RFC on the Future of the Financial Objects project. See this GitHub issue _[RFC: The Future of Financial Objects](https://github.com/finos/finos-fo/issues/38)_ for more context.
+Between July 2020 and February 2021, the FINOS Community engaged with a Request for Comment on the Future of the Financial Objects project. See this GitHub issue _[RFC: The Future of Financial Objects](https://github.com/finos/finos-fo/issues/38)_ for context.
 
-In February 2021, Goldman Sachs stepped forward to lead the project, and following support from the FINOS Community, Ffion Acland became the project lead on February 19th 2021 The project currently has two work streams: Securities Reference Data and Currency Reference Data.
+In February 2021, Ffion Acland from Goldman Sachs [stepped forward](https://groups.google.com/a/finos.org/g/community/c/7U3uS0GJ0QQ) to lead the Financial Objects project. Following a ten day period during which this proposal received support and no objections from the FINOS Community, Ffion Acland became the project lead on February 19th 2021. The project currently has two work streams: Commodities Payout and Product Control Common Template.
 
 ## Commodities Payout Workstream
 
@@ -37,6 +37,8 @@ There are several ways to contribute to the Commodities Payout workstream:
 
 #### Legend Studio
 Please note that modeling is being done in the FINOS hosted instance of [Legend Studio](https://github.com/finos/legend-studio), and a copy of the ISDA CDM in the FINOS hosted instance of Legend Studio can be accessed at https://legend.finos.org/studio/viewer/UAT-34. Please note that you will need to have an account on the FINOS hosted instance of Legend Studio in order to access it. You can request an account at [finos.org/legend](https://www.finos.org/legend). 
+
+### Project Governance
 
 
 
@@ -63,6 +65,8 @@ There are several ways to contribute to the Product Control Common Template Work
 
 #### Legend Studio
 Please note that modeling is being done in the FINOS hosted instance of [Legend Studio](https://github.com/finos/legend-studio), and a copy of the ISDA CDM in the FINOS hosted instance of Legend Studio can be accessed at https://legend.finos.org/studio/viewer/UAT-34. Please note that you will need to have an account on the FINOS hosted instance of Legend Studio in order to access it. You can request an account at [finos.org/legend](https://www.finos.org/legend). 
+
+### Project Governance
 
 ## Contributing
 
