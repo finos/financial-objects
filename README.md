@@ -70,6 +70,10 @@ Please note that modeling is being done in the FINOS hosted instance of [Legend 
 
 ### Project Governance
 
+## Governance
+
+Please refer to this [GitHub issue]() to provide feedback on the Governance model for Financial Objects.  
+
 ## Contributing
 
 1. Fork it (<https://github.com/finos-fo/finos-fo/fork>)
