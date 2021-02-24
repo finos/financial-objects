@@ -40,9 +40,6 @@ There are several ways to contribute to the Commodities Payout workstream:
 #### Legend Studio
 Please note that modeling is being done in the FINOS hosted instance of [Legend Studio](https://github.com/finos/legend-studio), and a copy of the ISDA CDM in the FINOS hosted instance of Legend Studio can be accessed at https://legend.finos.org/studio/viewer/UAT-34. Please note that you will need to have an account on the FINOS hosted instance of Legend Studio in order to access it. You can request an account at [finos.org/legend](https://www.finos.org/legend). 
 
-### Project Governance
-
-
 
 ## Product Control Common Template Workstream
 
@@ -68,13 +65,11 @@ There are several ways to contribute to the Product Control Common Template Work
 #### Legend Studio
 Please note that modeling is being done in the FINOS hosted instance of [Legend Studio](https://github.com/finos/legend-studio), and a copy of the ISDA CDM in the FINOS hosted instance of Legend Studio can be accessed at https://legend.finos.org/studio/viewer/UAT-34. Please note that you will need to have an account on the FINOS hosted instance of Legend Studio in order to access it. You can request an account at [finos.org/legend](https://www.finos.org/legend). 
 
-### Project Governance
-
-## Governance
+# Governance
 
 Please refer to this [GitHub issue]() to provide feedback on the Governance model for Financial Objects.  
 
-## Contributing
+# Contributing
 
 1. Fork it (<https://github.com/finos-fo/finos-fo/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
@@ -90,11 +85,5 @@ _NOTE:_ Commits and pull requests to FINOS repositories will only be accepted fr
 ## License
 
 Copyright 2019 FINOS The Fintech Open Source Foundation
-
-Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
-
-## License
-
-Copyright 2019 FINOS the Finteh Open Source Foundation
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
