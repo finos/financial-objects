@@ -71,7 +71,7 @@ Please note that modeling is being done in the FINOS hosted instance of [Legend 
 
 # Governance
 
-Please expect updates on the Financial Objects governance model soon.  
+The Financial Objects project is reviewing its governance, for more information see this GitHub issue: _[Adopt Governance model for the FINOS Financial Objects project](https://github.com/finos/finos-fo/issues/48)_.
 
 # Contributing
 
