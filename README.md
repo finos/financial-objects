@@ -27,6 +27,9 @@ The ISDA CDM recently introduced its first instance of Commodities representatio
 ### Proposed Solution
 Looking to tackle the Commodity Option payout first, the proposed solution will look to build on the existing generic option component with any additional terms that are relevant to commodities but not necessarily captured.
 
+### Roadmap
+_Coming soon_
+
 ### Contribute to the Commodities Payout workstream
 
 There are several ways to contribute to the Commodities Payout workstream:
@@ -55,6 +58,9 @@ This way banks do not have to change their infrastructure whenever new vendors c
 - Construct a common template data model using Legend Studio (an approved open sourced data modelling tool that allow users to create data model in a graphical user interface).
 - This common template data model will include all the attributes that each vendor is required to run their valuation process and return the consensus data to the banks.
 - Banks can connect their daily pricing data to the industry approved model for submission and vendor can leverage the same model to provide the consensus data. Thereby, both the banks and vendor will communicate in the same common model language.
+
+### Roadmap
+_Coming soon_
 
 ### Contribute to the Product Control Common Template Workstream
 
