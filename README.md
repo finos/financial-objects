@@ -74,9 +74,13 @@ The Financial Objects project is reviewing its governance, for more information 
 
 # Contributing
 
-_NOTE:_ Commits and pull requests to FINOS repositories will only be accepted from those contributors with an active, executed Individual Contributor License Agreement (ICLA) with FINOS OR who are covered under an existing and active Corporate Contribution License Agreement (CCLA) executed with FINOS. Commits from individuals not covered under an ICLA or CCLA will be flagged and blocked by the FINOS Clabot tool. Please note that some CCLAs require individuals/employees to be explicitly named on the CCLA.
+Commits and pull requests to FINOS repositories will only be accepted from those contributors with an active, executed [Individual Contributor License Agreement (ICLA)](https://www.finos.org/hubfs/FINOS/governance/FINOS%20ICLA.pdf) with FINOS OR who are covered under an existing and active [Corporate Contribution License Agreement (CCLA)](https://www.finos.org/hubfs/FINOS/governance/FINOS%20CCLA.pdf) executed with FINOS. Commits from individuals not covered under an ICLA or CCLA will be flagged and blocked by the FINOS Clabot tool. Please note that some CCLAs require individuals/employees to be explicitly named on the CCLA.
 
 *Need an ICLA? Unsure if you are covered under an existing CCLA? Email [help@finos.org](mailto:help@finos.org)*
+
+If you're interested in contributing to Financial Objects data models on the FINOS hosted instance of [Legend Studio](https://github.com/finos/legend-studio), please submit your interest at [finos.org/legend](https://www.finos.org/legend) and you will be granted "read-only" access to **view** models.
+
+**Editing and creating** models in Legend is considered an open source contribution, and contributions to FINOS open source projects must be covered by a [Contributor License Agreement (CLA)](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements#ContributionComplianceRequirements-ContributorLicenseAgreement). If you would like to get access to edit and create models (i.e. "write" access), your employer will need to sign a [Contributor License Agreement (CLA)](https://www.finos.org/hubfs/FINOS/governance/FINOS%20CCLA.pdf) with the Foundation. Please see the [Contribution Compliance Requirements](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements) and email help@finos.org with questions. 
 
 ## License
 
