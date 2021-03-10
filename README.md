@@ -50,7 +50,7 @@ The Product Control Common Template Workstream was [proposed](https://github.com
 ### Business Problem
 There are multiple vendors currently providing consensus based pricing services and each vendor have their own template requirements. The different submission and consensus templates have increased the onboarding cost for participants to switch between / subscribe for multiple vendors. 
 
-To overcome this inconsistency, we are considering to create an industry standard common template for submitting to and getting data back from vendors. This would help to streamline the Submission process by applying a consistent approved format for this submission. We can continue to send and receive the file in the same format and it is the vendor that needs to conform to the industry standard when agreed upon by all the banks. 
+To overcome this inconsistency, we are considering to create an industry standard common template for submitting to and getting data back from vendors. This would help to streamline the submission process by applying a consistent approved format for this submission. We can continue to send and receive the file in the same format and it is the vendor that needs to conform to the industry standard when agreed upon by all the banks. 
 
 This way banks do not have to change their infrastructure whenever new vendors come in or source many different files for all the vendors. It would also allow vendors to change formatting and column naming conventions of submission files without requiring work from the industry as the templates would still need to conform to the industry standard data model.
 
