@@ -43,7 +43,7 @@ const siteConfig = {
   organizationName: 'finos-fo',
   headerLinks: [
     {doc: 'fo-intro', label: 'Intro'},    
-    {doc: 'fo-library', label: 'Object Library'},
+    // {doc: 'fo-library', label: 'Object Library'},
     {page: 'getinvolved', label: 'Get Involved'}
   ],
   headerIcon: 'img/fo-icon-2019.png',
