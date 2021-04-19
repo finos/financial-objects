@@ -108,14 +108,14 @@ class Index extends React.Component {
         {[
           {
             content: 'The Commodities Payout Workstream was [proposed](https://github.com/finos/community/issues/102) and is led by Goldman Sachs.',
-            image: `https://raw.githubusercontent.com/finos/finos-landscape/master/hosted_logos/fo-commodities-payout.svg`,
+            // image: `https://raw.githubusercontent.com/finos/finos-landscape/master/hosted_logos/fo-commodities-payout.svg`,
             link: 'https://github.com/finos/finos-fo/blob/master/README.md#commodities-payout-workstream',
             // imageAlign: 'top',
             title: 'Commodities Payout',
           },
           {
             content: 'The Product Control Common Template Workstream was [proposed](https://github.com/finos/community/issues/97) and is led by Goldman Sachs.',
-            image: `https://raw.githubusercontent.com/finos/finos-landscape/master/hosted_logos/fo-product-control-common-template.svg`,
+            // image: `https://raw.githubusercontent.com/finos/finos-landscape/master/hosted_logos/fo-product-control-common-template.svg`,
             link: 'https://github.com/finos/finos-fo/blob/master/README.md#product-control-common-template-workstream',
             // imageAlign: 'top',
             title: 'Product Control Common Template',
