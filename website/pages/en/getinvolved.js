@@ -37,13 +37,14 @@ function GetInvolved(props) {
           <header className="postHeader">
             <h1>Get Involved</h1>
           </header>
-          <p>If you would like to participate in this working group, please review our participation requirements below, then feel free to join our next meeting.  We also encourage you to join the mailing list, by sending a blank email to fo-financial-objects+subscribe@finos.org.  Once you are subscribed, please send a brief email introducing yourself and your interest in the group's work to the mailing-list - this will help save time on the calls themselves.</p>
+          <p>If you would like to participate in this working group, please review our participation requirements below, then feel free to join our next meeting.  We also encourage you to join the mailing list, by sending a blank email to <a href="mailto:fo-financial-objects+subscribe@finos.org">fo-financial-objects+subscribe@finos.org</a>. Once you are subscribed, please send a brief email introducing yourself and your interest in the group's work to the mailing-list - this will help save time on the calls themselves.</p>
           <GridBlock contents={supportLinks} layout="twoColumn" />
           <h2>Participation Requirements</h2>
-          <p>We request active participation through the contribution of your own use cases to allow collaboration and consensus towards financial object standards.
-            We aim to take contributions of established financial objects in active or planned workflows utilized within the financial services eco-system with the intention to converge towards a common structure of a financial object.
-            Active participants will be able to vote on the core structure of a financial object type to ensure ability to version, test and validate these financial objects in practice against their business use case and associated workflow. That workflow can be internal to internal, internal to external or across multiple internal and external party workflows.</p>
-          <h2>Chairs</h2>
+          <p>We request active participation through the contribution of your own use cases to allow collaboration and consensus towards financial object standards.</p>
+          <p>We aim to take contributions of established financial objects in active or planned workflows utilized within the financial services eco-system with the intention to converge towards a common structure of a financial object.</p>
+          <p>Active participants will be able to vote on the core structure of a financial object type to ensure ability to version, test and validate these financial objects in practice against their business use case and associated workflow. That workflow can be internal to internal, internal to external or across multiple internal and external party workflows.</p>
+          {/* TODO - add new chairs */}
+          {/* <h2>Chairs</h2>
           <ul>
             <li>William Quan, Co-Chair (JPM)</li>
             <li>Hammad Akbar, Co-Chair (Citi)</li>
@@ -77,7 +78,7 @@ function GetInvolved(props) {
             <li>John Lin (AllianceBernstein)</li>
             <li>Kiran Jawale (AllianceBernstein)</li>
             <li>Katia Banina (Refinitiv)</li>
-          </ul>
+          </ul> */}
         </div>
       </Container>
     </div>

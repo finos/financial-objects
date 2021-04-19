@@ -29,12 +29,6 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const Logo = props => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
-      </div>
-    );
-
     const ProjectTitle = () => (
       <h2 className="projectTitle">
         {siteConfig.title}
@@ -92,70 +86,39 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
+    const BackGroundInfo = () => (
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Financial Objects Hierachy</h2>
-        <MarkdownBlock>Below is an example diagram showing how financial objects can be used and referenced.</MarkdownBlock>
-        <img alt="Financial Objects Hierarchy" src="img/fo_diagram_transparent.png"/>
+        <h2>Background</h2>
+        <MarkdownBlock>
+        The Financial Objects project was led by Johan Sandersson (Factset) and Hammad Akbar (Citi) until July 2020, when they expressed their intention to step down as project leads. See this GitHub issue _[Choose new project leads for FO](https://github.com/finos/finos-fo/issues/36)_ for context.
+        </MarkdownBlock>
+        <MarkdownBlock>
+        Between July 2020 and February 2021, the FINOS Community engaged with a [Request for Comment on the Future of the Financial Objects project](https://github.com/finos/finos-fo/issues/38), and in February 2021, Ffion Acland from Goldman Sachs [stepped forward](https://groups.google.com/a/finos.org/g/community/c/7U3uS0GJ0QQ) to lead the Financial Objects project. Following a ten day period during which this proposal received support and no objections from the FINOS Community, Ffion Acland became the project lead on February 19th 2021. 
+        </MarkdownBlock>
+        <MarkdownBlock>
+        The FINOS Financial Objects project currently has two work streams: Commodities Payout and Product Control Common Template.
+        </MarkdownBlock>
       </div>
     );
 
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content: 'Talk about trying this out',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'left',
-            title: 'Try it Out',
-          },
-        ]}
-      </Block>
-    );
-
-
-
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content: 'Talk about learning how to use this',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'right',
-            title: 'Learn How',
-          },
-        ]}
-      </Block>
-    );
-
     const Features = () => (
-      <Block background="light" layout="fourColumn">
+      <Block background="light" layout="twoColumn">
         {[
           {
-            content: 'Ability to define and pass through a structured object between buy-side, sell-side and financial eco-system partners. [Read More](docs/objects/trade)',
-            image: `${baseUrl}img/check-box.svg`,
-            imageAlign: 'top',
-            title: 'Trade Object',
+            content: 'The Commodities Payout Workstream was [proposed](https://github.com/finos/community/issues/102) and is led by Goldman Sachs.',
+            // image: `https://raw.githubusercontent.com/finos/finos-landscape/master/hosted_logos/fo-commodities-payout.svg`,
+            link: 'https://github.com/finos/finos-fo/blob/master/README.md#commodities-payout-workstream',
+            // imageAlign: 'top',
+            title: 'Commodities Payout',
           },
           {
-            content: 'Enabled and triggered from a blotter or similar application to place an order. [Read More](docs/objects/order)',
-            image: `${baseUrl}img/check-box.svg`,
-            imageAlign: 'top',
-            title: 'Order Object',
-          },
-          {
-            content: 'An extension of the trade object by identifying the additional attributes over and above the trade object. [Read More](docs/objects/rfq)',
-            image: `${baseUrl}img/check-box.svg`,
-            imageAlign: 'top',
-            title: 'RFQ Object',
-          },
-          {
-            content: 'An object with standardized names would allow for the use of several IDs to define the instrument. [Read More](docs/objects/instrument)',
-            image: `${baseUrl}img/check-box.svg`,
-            imageAlign: 'top',
-            title: 'Instrument Object'
+            content: 'The Product Control Common Template Workstream was [proposed](https://github.com/finos/community/issues/97) and is led by Goldman Sachs.',
+            // image: `https://raw.githubusercontent.com/finos/finos-landscape/master/hosted_logos/fo-product-control-common-template.svg`,
+            link: 'https://github.com/finos/finos-fo/blob/master/README.md#product-control-common-template-workstream',
+            // imageAlign: 'top',
+            title: 'Product Control Common Template',
           }
         ]}
       </Block>
@@ -163,33 +126,25 @@ class Index extends React.Component {
 
     const Description = props => (
       <div
-        className="productShowcaseSection paddingTop lightBackground paddingBottom"
+        className="productShowcaseSection paddingTop paddingBottom"
         style={{textAlign: 'center'}}>
-        <div class="wrapper">
-            <div class="gridBlock"
+        <div className="wrapper">
+            <div className="gridBlock"
             style={{textAlign: 'center'}}>
-              <div class="blockElement twoByGridBlock">
-    
-            <h2>About Financial Objects</h2>
-            <MarkdownBlock background="dark">
-            FINOS Financial Objects is a community-led initiative that defines and maintains object structures for a wide range for financial interactions - everything from basic context linking of applications using different datasets to complex transactional workflows.
-            </MarkdownBlock>
-            <MarkdownBlock>
-            The Financial Objects Program, launched in July 2018, was formed to drive adoption of new and existing Financial Object Standards across the Financial Services Industry, through a FINOS Program that brings together creators of Financial Objects with users of Financial Objects. Standardization of Financial Objects is valuable to the Financial Services industry because it will lower integration and transaction costs, simplify processing across organizational boundaries, enable the mutualization of commodity software for handling these objects, and improve the discoverability of data and overall interpretability and readiness for data analysis tools.
-            </MarkdownBlock>
-            <MarkdownBlock>
-        
-            </MarkdownBlock>
-            <MarkdownBlock>
-        
-            </MarkdownBlock>
-        
+              <div className="blockElement twoByGridBlock">
+                <h2>About Financial Objects</h2>
+                <MarkdownBlock background="dark">
+                FINOS Financial Objects is a community-led initiative that defines and maintains object structures for a wide range for financial interactions - everything from basic context linking of applications using different datasets to complex transactional workflows.
+                </MarkdownBlock>
+                <MarkdownBlock>
+                The Financial Objects Program, launched in July 2018, was formed to drive adoption of new and existing Financial Object Standards across the Financial Services Industry, through a FINOS Program that brings together creators of Financial Objects with users of Financial Objects. Standardization of Financial Objects is valuable to the Financial Services industry because it will lower integration and transaction costs, simplify processing across organizational boundaries, enable the mutualization of commodity software for handling these objects, and improve the discoverability of data and overall interpretability and readiness for data analysis tools.
+                </MarkdownBlock>        
               </div>
-              <div class="blockElement imageAlineSide imageAlineRight twoByGridBlock">
-                  <div class="blockElement">
+              <div className="blockElement imageAlineSide imageAlineRight twoByGridBlock">
+                  <div className="blockElement">
                     <div></div>
                   </div>
-                  <div class="blockImage">
+                  <div className="blockImage">
                     <img src="img/fo-icon-2019-color.png"></img>
                   </div>
               </div>
@@ -198,46 +153,31 @@ class Index extends React.Component {
       </div>
     );
 
-
-    
-    const Showcase = () => {
-      if ((siteConfig.users || []).length === 0) {
-        return null;
-      }
-
-      const showcase = siteConfig.users
-        .filter(user => user.pinned)
-        .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
-          </a>
-        ));
-
-      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
-
-      return (
-        <div className="productShowcaseSection paddingBottom">
-          <h2>Who is participating to Financial Objects?</h2>
-          <div className="logos">{showcase}</div>
-          <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
-            </a>
-          </div>
-        </div>
-      );
-    };
+    const GetInvolved = () => (
+      <div
+        className="productShowcaseSection paddingBottom lightBackground"
+        style={{textAlign: 'center'}}>
+        <h2>Get Involved</h2>
+        <MarkdownBlock>
+        If you're interested in contributing to Financial Objects data models on the FINOS hosted instance of [Legend Studio](https://github.com/finos/legend-studio), please submit your interest at [finos.org/legend](https://www.finos.org/legend) and you will be granted "read-only" access to **view** models.
+        </MarkdownBlock>
+        <MarkdownBlock>
+        **Editing and creating** models in the FINOS hosted instance of Legend Studio is considered an open source contribution, and contributions to FINOS open source projects must be covered by a [Contributor License Agreement (CLA)](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements#ContributionComplianceRequirements-ContributorLicenseAgreement). If you would like to get access to edit and create models (i.e. "write" access) on the FINOS hosted instance of Legend Studio, your employer will need to sign a [Contributor License Agreement (CLA)](https://www.finos.org/hubfs/FINOS/governance/FINOS%20CCLA.pdf) with the Foundation. Please see the [Contribution Compliance Requirements](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements) and email help@finos.org with questions. 
+        </MarkdownBlock>
+        <MarkdownBlock>
+        For more info, checkout the [project README](https://github.com/finos/finos-fo/blob/master/README.md).
+        </MarkdownBlock>
+      </div>
+    );
 
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
-          {/* <LearnHow />
-          <TryOut /> */}
           <Description />
-          {/*<Showcase /> */}
+          <Features />
+          <BackGroundInfo />
+          <GetInvolved />
         </div>
       </div>
     );
