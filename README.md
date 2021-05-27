@@ -21,7 +21,7 @@ See the roadmap and charter of the Financial Objects Special Interest Group [her
 # Get Involved
 
 ## Financial Objects SIG meetings
-Participants of the Financial Objects Special Interest Group meet on a regular basis, find the next meeting on the FINOS Community Calendar and email [help@finos.org](mailto:help@finos.org) if you encounter any issues.
+Participants of the Financial Objects Special Interest Group meet on a regular basis, find the next meeting on the [FINOS Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig@group.calendar.google.com&ctz=America/New_York) and email [help@finos.org](mailto:help@finos.org) if you encounter any issues.
 
 Browse [past meeting minutes and upcoming meeting agendas](https://github.com/finos/financial-objects/issues?q=label%3Ameeting).
 
