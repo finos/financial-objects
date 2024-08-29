@@ -91,7 +91,8 @@ const siteConfig = {
   repoUrl: 'https://github.com/finos-fo/finos-fo',
 
   //Google Analytics tracking ID to track page views.
-  gaTrackingId: 'UA-89349362-9'
+  gaGtag: true,  // Enable gtag.js instead of analytics.js
+  gaTrackingId: 'G-Q6TYKBWY00'
 };
 
 module.exports = siteConfig;
